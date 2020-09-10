@@ -1,0 +1,1207 @@
+@charset "utf-8";
+
+
+/* sec */
+@font-face{
+	font-family:'SECGCWL';
+	src:url("http://cdn.samsung.com/sec/next/font/SECGCWL.eot");
+	src:url("http://cdn.samsung.com/sec/next/font/SECGCWL.eot?#iefix") format("embedded-opentype"),
+	url("http://cdn.samsung.com/sec/next/font/SECGCWL.woff") format("woff"),
+	url("http://cdn.samsung.com/sec/next/font/SECGCWL.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face{
+	font-family:'SECGCWB';
+	src:url("http://cdn.samsung.com/sec/next/font/SECGCWB.eot");
+	src:url("http://cdn.samsung.com/sec/next/font/SECGCWB.eot?#iefix") format("embedded-opentype"),
+	url("http://cdn.samsung.com/sec/next/font/SECGCWB.woff") format("woff"),
+	url("http://cdn.samsung.com/sec/next/font/SECGCWB.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face{
+	font-family:'SECGCWM';
+	src:url("http://cdn.samsung.com/sec/next/font/SECGCWM.eot");
+	src:url("http://cdn.samsung.com/sec/next/font/SECGCWM.eot?#iefix") format("embedded-opentype"),
+	url("http://cdn.samsung.com/sec/next/font/SECGCWM.woff") format("woff"),
+	url("http://cdn.samsung.com/sec/next/font/SECGCWM.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+
+.ac_wrap { width: 100%; background:#fff; font-family:'SECGCWL'; word-break:keep-all;-webkit-font-smoothing:antialiased; min-width:320px; overflow:hidden; min-width:320px; max-width:1440px; position:relative; margin:0 auto; }
+.ac_wrap .feature,
+.ac_wrap .feature_inner {position:relative;}
+.ac_wrap .obj > img {width:100%; display: block;}
+.ac_wrap .ico > img {width:auto;}
+.ac_wrap img{ display: block;}
+.ac_wrap .ac_inner { width: 100%; position: relative; }
+.ac_wrap .txt{box-sizing:border-box;position:absolute;top:0; width:100%; text-align: center;}
+.ac_wrap .txt strong {white-space:nowrap;}
+.ac_wrap .valign {display:table;height:100%;width:100%;}
+.ac_wrap .valign .middle {display:table-cell;vertical-align:middle;}
+.ac_wrap .wsnr { white-space: nowrap; }
+.ac_wrap .m_only { display: none; }
+
+.ac_wrap .txt { color: #000; } 
+.ac_wrap .txt .feature-title { font-family:'SECGCWB'; font-size: 48px; line-height: 58px; letter-spacing: -1px; }
+.ac_wrap .txt .feature-desc { font-family:'SECGCWL'; font-size: 18px; line-height: 28px; letter-spacing: -0.6px; margin-top: 27px;}
+.ac_wrap .txt .feature-notice {  }
+.ac_wrap .txt .feature-notice .notice { font-family:'SECGCWM'; font-size: 14px; line-height: 28px; letter-spacing: -0.8px; }
+
+.ac_wrap .cs_wrap { position: relative; display: inline-block; line-height: 1; vertical-align: middle; margin-right: 10px; }
+.ac_wrap .cs_wrap a, .ac_wrap .cs_wrap span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #fff; opacity: 0.3; margin-right: 4px; }
+.ac_wrap .cs_wrap a:last-child, .ac_wrap .cs_wrap span:last-child { margin-right: 0; }
+.ac_wrap .cs_wrap a.active, .ac_wrap .cs_wrap span.active { opacity: 1; }
+.ac_wrap .cs_count { display: inline-block; color: #b8caf6; font-family:'SECGCWM'; font-size: 20px; line-height: 1; letter-spacing: -0.8px; }
+.ac_wrap .cs_count span { color: #fff; }
+.ac_wrap .replay_btn { position: absolute; width: 107px; height: 107px; right: 58px; top: 62px; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f01-ico-01_1.png') no-repeat 100% 100%; background-size: 100% 100%; text-align: center; font-family:'SECGCWB'; color: #fff; font-size: 15px; line-height: 1.33; }
+
+
+.f01 .obj { width: 100%; position: relative; }
+.f01 .txt { position: absolute; top: 275px; left: 0; width: 100%; text-align: center; color: #fff; }
+.f01 .txt .top_txt { font-family:'SECGCWL'; font-size: 55px; line-height: 70px; letter-spacing: -0.6px; }
+.f01 .txt .bottom_txt { font-family:'SECGCWL'; font-size: 18px; line-height: 28px; color: #f7efe6; margin-top: 20px;  letter-spacing: -0.6px; }
+.f01 .txt .bottom_txt b { font-family:'SECGCWM'; font-weight: normal; letter-spacing: -0.8px; color: #fff; }
+.f01 .txt .start_btn { font-family:'SECGCWB'; display: inline-block; box-sizing: border-box; width: 230px; height: 60px; font-size: 24px; line-height: 60px; border: 1px solid rgba(255,255,255,1); background: rgba(0,0,0,0.1); color: #fff; margin-top: 75px; }
+.f01 .txt .start_btn p { text-shadow: -5px 2px 7px #453e34; } 
+.f01 .txt .start_btn.hover { background: #fff; border-color: #fff; color: #333; }
+.f01 .txt .start_btn.hover p { text-shadow: none; }
+.f01 .ver_line { width: 1px; height: 32px; background: rgba(255,255,255,0.4); position: absolute; lefT: 50%; top: 50%; margin-left: -2px; margin-top: 25px; }
+
+.f01 .airtest_wrap { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }  
+.f01 .airtest_inner { position: relative; width: 100%; height: 100%; }
+.f01 .airtest_q { position: relative; width: 100%; height: 100%; }
+.f01 .airtest_r { position: absolute; width: 100%; height: 100%; left: 0; top: 0; }
+.f01 .airtest_box { position: absolute; width: 100%; height: 100%; left: 0; top: 0; }
+.f01 .airtest_box_inner { position: relative; width: 100%; height: 100%; }
+.f01 .airtest_img { position: relative; width: 100%; height: 100%; }
+.f01 .airtest_img img { width: 100%; }
+.f01 .airtest_txt { color: #fff; position: absolute; width: 100%; top: 217px; left: 0; text-align: center; }
+.f01 .airtest_txt .airtest_num { font-family:'SECGCWM'; font-size: 24px; line-height: 1; letter-spacing: -0.8px; }
+.f01 .airtest_txt .airtest_quest { font-family:'SECGCWB'; font-size: 48px; line-height: 58px; margin-top: 14px; letter-spacing: -1px; }
+
+.f01 .airtest_select .select_element { position: absolute; display: block; width: 300px; height: 301px; left: 50%; top: 50%; margin-top: -4px; }
+.f01 .airtest_select .select_o { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f01-ico-02.png') no-repeat 100% 100%; background-size: 100% 100%; margin-left: -512px; }
+.f01 .airtest_select .select_o.hover { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f01-ico-02-h_1.png') no-repeat 100% 100%; background-size: 100% 100%; }
+.f01 .airtest_select .select_x { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f01-ico-03.png') no-repeat 100% 100%; background-size: 100% 100%; margin-left: 210px; }
+.f01 .airtest_select .select_x.hover { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f01-ico-03-h_1.png') no-repeat 100% 100%; background-size: 100% 100%; }
+
+.f01 .airtest_cs { position: absolute; left: 58px; top: 98px; }
+.f01 .airtest_title { position: absolute; width: auto; left: 50%; top: 104px; margin-left: -177px; font-family:'SECGCWL'; color: #fff; font-size: 24px; line-height: 1; display: inline-block; letter-spacing: -0.8px; }
+
+
+.f01 .airtest_r .txt { top: 126px; left: 0; }
+.f01 .airtest_r .txt_ending { display:none; }
+.f01 .airtest_r .airtest_title { position: static; left: 0; margin: 0; top: auto; }
+.f01 .airtest_r .txt .feature-title { margin-top: 54px; }
+.f01 .airtest_r .txt .feature-notice { font-family:'SECGCWM'; font-size: 14px; line-height: 2;  }
+.f01 .airtest_r .airtest_r_cm_btn { box-sizing: border-box; display: block; background: rgba(0,0,0,0.1); border: 1px solid #fff; width: 400px; height: 60px; font-family:'SECGCWB'; color: #fff; font-size: 24px; line-height: 60px; margin-top: 64px; margin-left: auto; margin-right: auto; }
+.f01 .airtest_r .airtest_r_cm_btn.hover { color: #333; background: #fff; border-color: #fff; }
+.f01 .airtest_r .airtest_r_btn02 { margin-top: 20px; }
+
+.f01 .airtest_wrap, .f01 .airtest_box, .f01 .airtest_r { display: none; opacity: 0; } 
+.f01 .airtest01 { display: block; opacity: 1; }
+
+.f02 { margin: 30px 0; }
+.f02 .txt { top: 94px; }
+.f02 .txt .feature-title { position: relative; }
+.f02 .txt .feature-top-title { font-family:'SECGCWM'; font-size: 22px; line-height: 1; margin-bottom: 28px; color: #273f75; }
+.f02 .txt .feature-top-title .num_c { color: #3a69d5; }
+.f02 .txt .feature-desc { font-family:'SECGCWM'; }
+.f02 .txt .feature-notice .notice { font-family:'SECGCWM'; font-size: 14px; line-height: 1.4; margin-top: 22px; color:#5A5A5A;}
+.f02 .slider_wrap { position: relative; }
+.f02 .slider_wrap .slider { position: relative; }
+.f02 .slider_wrap .slider .slider_el { position: absolute; left: 0; top: 0; width: 100%; display: none; opacity: 1; }
+.f02 .slider_wrap .slider .slider_el .guide_ico { box-sizing: border-box; display: block; color: #4170da; font-family:'SECGCWB'; text-align: center; width: 306px; height: 62px; font-size: 24px; line-height: 62px; border: 1px solid #4170da; position: absolute; left: 50%; top: 50%; margin-left: -153px; margin-top: -140px; }
+.f02 .slider_wrap .slider .slider_el .guide_ico.hover { color: #fff; background: #4170da; }
+
+.f02 .slider_wrap .slider .slider_el01 { position: relative; left: 0; display: block; opacity: 1; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap { position: absolute;  top: 470px; left: 0; text-align: center; width: 100%; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico { width: 208px; display: inline-block; text-align: center; margin: 0 14px; vertical-align: top; color: #000; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico.hover { color: #0568ca; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico img { display: inline-block; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico01 img { width: 42px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico02 img { width: 55px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico03 img { width: 59px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico04 img { width: 56px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico05 img { width: 49px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title { font-family:'SECGCWB'; font-size: 20px; line-height: 1.2; letter-spacing: -0.8px; margin-top: 24px; position: relative; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_txt { color: #0568ca; position: relative; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_txt::after { display: block; width: 100%; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f00_underline.png') repeat-x 0 100%; background-size: auto 100%; position: absolute; left: 0; top: 100%; height: 2px; content: " "; margin-top: 3px; }
+
+
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup { box-sizing: border-box; position: absolute; bottom: 100%; left: 50%; width: 429px; height: 427px; margin-left: -173px; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-01-popup-bg_1.png') no-repeat 100% 100%; background-size: 100% 100%; padding: 48px 48px 0 43px; margin-bottom: -7px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup img { display: block; width: 248px; margin-left: 44px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt { text-align: left; font-size: 18px; line-height: 26px; margin-top: 24px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt { font-family:'SECGCWL'; font-size: 14px; line-height: 1.28; position: absolute; left: 50%; top: 204px; margin-left: -22px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt p { position: relative; display: block; padding-left: 10px;  }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt p .note_symbol { position: absolute; left: 0; top: 0; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .top_txt { font-family:'SECGCWB'; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .bottom_txt { font-family:'SECGCWL'; margin-top: 4px; padding-left: 10px; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_close { display: none; position: absolute; top: 17px; right: 31px; margin-top: -10px; margin-right: -10px; }
+.ac_wrap.device .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_close { display: block; }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_close img { box-sizing: content-box; display: block; padding: 10px; width: 30px;  }
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup { display: none; opacity: 0; }
+
+
+.f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_desc { font-family:'SECGCWM'; font-size: 14px; line-height: 1.42; letter-spacing: -0.6px; margin-top: 13px; }
+
+
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w { position: relative; display: inline-block; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_txt { color: #0568ca; position: relative; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_txt::after { display: block; width: 100%; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f00_underline.png') repeat-x 0 100%; background-size: auto 100%; position: absolute; left: 0; top: 100%; height: 2px; content: " "; margin-top: 3px; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup { box-sizing: border-box; position: absolute; top: 100%; left: 50%; width: 398px; height: 360px; margin-left: -196px; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-02-popup-bg_2.png') no-repeat 100% 100%; background-size: 100% 100%; padding: 57px 48px 0 43px; margin-top: 0px; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup img { display: block; width: 248px; margin-top: 30px; margin-left: 30px; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt { text-align: left; font-size: 18px; line-height: 26px; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .popup_tt { text-align: center; font-family:'SECGCWB'; font-size: 22px; line-height: 1; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .notice_txt { font-family:'SECGCWL'; font-size: 14px; line-height: 1.28; position: absolute; left: 50%; top: 264px; margin-left: -20px; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .notice_txt p { position: relative; display: block; padding-left: 10px;  }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .notice_txt p .note_symbol { position: absolute; left: 0; top: 0; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .top_txt { font-family:'SECGCWB'; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .bottom_txt { font-family:'SECGCWL'; margin-top: 4px; padding-left: 10px; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_close { display: none; position: absolute; top: 27px; right: 30px; margin-top: -10px; margin-right: -10px; }
+.ac_wrap.device .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_close { display: block; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_close img { box-sizing: content-box; display: block; width: 30px; padding: 10px; margin-top: 0; }
+.f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup { display: none; opacity: 0; }
+
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w { position: relative; display: inline-block; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_txt { color: #0568ca; position: relative; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_txt::after { display: block; width: 101%; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f00_underline.png') repeat-x 0 100%; background-size: auto 100%; position: absolute; left: 0; top: 100%; height: 2px; content: " "; margin-top: 3px; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup { box-sizing: border-box; position: absolute; top: 100%; left: 50%; width: 386px; height: 274px; margin-left: -180px; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-03-popup-bg_1.png') no-repeat 100% 100%; background-size: 100% 100%; padding: 33px 0 0 0; margin-top: 0px; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt { text-align: center; font-size: 18px; line-height: 26px; margin-top: 24px; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .notice_txt { font-family:'SECGCWL'; font-size: 14px; line-height: 1.28; position: absolute; left: 50%; top: 204px; margin-left: -22px; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .top_txt { font-family:'SECGCWB'; font-size: 22px; line-height: 1; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .mid_txt { margin-top: 19px; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt { color: #484848; font-family:'SECGCWM'; font-size: 15px; line-height: 1.46; margin-top: 27px; padding-right: 20px; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt p { text-align: left; display: block; width: 236px; margin: 0 auto; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt b { font-weight: normal; color: #0568ca; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt b .fc_b { color: #000; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_close { display: none; position: absolute; top: 27px; right: 30px; margin-top: -10px; margin-right: -10px; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_close img { box-sizing: content-box; display: block; width: 30px; padding: 10px; }
+.ac_wrap.device .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_close { display: block; }
+.f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup { display: none; opacity: 0; }
+
+
+.f02 .slider_wrap .slider .slider_el02 .txt { margin-top: -46px; }
+.f02 .slider_wrap .slider .slider_el03 .txt { margin-top: -46px; }
+.f02 .slider_wrap .slider .slider_el04 .txt { margin-top: -46px; }
+.f02 .slider_wrap .slider .slider_el05 .txt { margin-top: -46px; }
+.f02 .slider_wrap .slider .slider_el06 .txt { margin-top: -46px; }
+
+
+.f02 .slider_wrap .slider .slider_el06 .guide_ico_btn { box-sizing: border-box; display: block; color: #4170da; font-family:'SECGCWB'; text-align: center; width: 389px; height: 62px; font-size: 24px; line-height: 62px; background: rgba(255,255,255,0.4); border: 1px solid #4170da; position: absolute; left: 50%; top: 50%; margin-top: -108px; margin-left: -194.5px; }
+.f02 .slider_wrap .slider .slider_el06 .guide_ico_btn.hover { color: #fff; background: #4170da; }
+
+.f02 .slider_wrap .slider .slider_el06 .guide_ico_btn .slider_el06_right { display: block; position: absolute; top: 50%; width: 63px; height: 112px; margin-top: -56px; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-arrow-02_1.png') no-repeat 100% 100%; background-size: 100% 100%; right: -63px; }
+
+
+.f02 .slider_wrap .slider_control .arrow_btn a { display: block; position: absolute; top: 50%; width: 63px; height: 112px; margin-top: -56px; }
+.f02 .slider_wrap .slider_control .arrow_btn a.left { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-arrow-01_1.png') no-repeat 100% 100%; background-size: 100% 100%; left: 28px; display: none; }
+.f02 .slider_wrap .slider_control .arrow_btn a.right { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-arrow-02_1.png') no-repeat 100% 100%; background-size: 100% 100%; right: 28px; }
+
+.f02 .slider_wrap .slider_control .cs_wrap { position: absolute; width: 100%; left: 0; bottom: 24px; text-align: center; }
+.f02 .slider_wrap .slider_control .cs_wrap a { display: inline-block; width: 14px; height: 14px; border-radius: 50%; opacity: 0.4; position: relative; margin-right: 0; background: none; }
+.f02 .slider_wrap .slider_control .cs_wrap a > span { display: block; position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px; background: #000; border-radius: 50%; opacity: 1; }
+.f02 .slider_wrap .slider_control .cs_wrap a.active { opacity: 1; background-color: #fff; }
+
+.f02 .replay_btn { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-ico-01_1.png') no-repeat 100% 100%; background-size: 100% 100%; color: #003a66; top: 12px; display: none; }
+
+
+.f03 { background: #bfd8e2; }
+.f03 .txt { top: 40px; z-index: 1; }
+.f03 .txt .feature-desc { font-family:'SECGCWM'; }
+
+.f03 .aircheck_wrap { position: relative; width: 100%; height: 100%; }  
+.f03 .aircheck_inner { position: relative; width: 100%; height: 100%; }
+.f03 .aircheck_q { position: relative; width: 100%; height: 100%; }
+.f03 .aircheck_r { position: absolute; width: 100%; height: 100%; left: 0; top: 0; }
+.f03 .aircheck_box { position: absolute; width: 100%; height: 100%; left: 0; top: 0; }
+.f03 .aircheck01 { position: relative; }
+
+.f03 .aircheck_list { box-sizing: border-box; position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding-top: 220px; }
+.f03 .aircheck_list .aircheck_list_title { color: #18476b; width: 100%; text-align: center; font-family:'SECGCWM'; font-size: 36px; line-height: 48px; position: absolute; top: 48px; left: 0; letter-spacing: -0.8px; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn_wrap { width: 100%; padding-top: 158px; text-align: center; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn { display: inline-block; position: relative; width: 342px; height: 342px; margin: 0 23px; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn { margin: 0 58px; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn > a { display: block; width: 100%; height: 100%; border-radius: 50%; background: rgba(255,255,255,0.6); border: 4px solid transparent; box-sizing: border-box; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn > a.active { background-color: #003a66; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn > a.hover { border: 4px solid #003a66; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn > a img { width: 100%; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt { position: relative; font-family:'SECGCWM'; color: #003a66; font-size: 24px; line-height: 38px; letter-spacing: -0.6px;  box-sizing: border-box; padding: 0 14px;}
+.f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt .fc_g { color: #6e6e6e; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn > a.active .btn_txt { color: #fff; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn > a.active .btn_txt .fc_g { color: #fff; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt.use_small_txt { font-size: 22px; line-height: 36px; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt.use_small_txt .top_txt { font-family:'SECGCWB'; font-size: 60px; margin-bottom: 34px; line-height: 1; color: #000; text-transform: uppercase; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn  > a.active .btn_txt.use_small_txt .top_txt { color: #fff; }
+.f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt .btn_txt_notice { position: absolute; width: 100%; left: 0; bottom: -52px; font-size: 16px; line-height: 1.5; }
+
+
+
+.f03 .aircheck_box .aircheck_list .aircheck_list_caption { position: absolute; bottom: 100px; left: 50%; margin-left: -50px; }
+.f03 .aircheck_box .aircheck_list .aircheck_list_caption .aircheck_list_caption_in { position: relative; width: 100%; height: 100%; }
+.f03 .aircheck_box .aircheck_list .aircheck_list_caption .aircheck_lisk_caption_in > a { text-decoration: underline; color: #085eb2; font-family:'SECGCWB'; font-size: 18px; line-height: 1; }
+.f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup { box-sizing: border-box; position: absolute; display:none;opacity:0;bottom: 100%; left: 50%; margin-bottom: 4px; margin-left: -140px; width: 290px; height: 147px; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-popup-bg.png') no-repeat 100% 100%; background-size: 100% 100%; }
+
+.f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup .popup_close { display: none; position: absolute; top: 17px; right: 27px; margin-top: -10px; margin-right: -10px; }
+.ac_wrap.device .f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup .popup_close { display: block; }
+.f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup .popup_close img { box-sizing: content-box; width: 30px; padding: 10px; }
+
+
+.f03 .aircheck01 .aircheck_list .aircheck_list_caption .aircheck_lisk_caption_in > a { text-decoration: none; display: block; font-family:'SECGCWL'; color: #000; }
+.f03 .aircheck01 .aircheck_list .aircheck_list_caption .aircheck_lisk_caption_in > a .td_ul { text-decoration: underline; }
+
+.f03 .aircheck01 .aircheck_list .aircheck_btn_wrap { padding-top: 132px; }
+.f03 .aircheck01 .aircheck_list .aircheck_btn > a { border: 4px solid transparent;  } 
+.f03 .aircheck01 .aircheck_list .aircheck_btn > a.active { background: none; }
+.f03 .aircheck01 .aircheck_list .aircheck_btn > a.active.hover { border-color: transparent; }
+.f03 .aircheck01 .aircheck_list .aircheck_btn .aircheck_btn_inner { position: relative; width: 100%; height: 100%; border-radius: 50%; overflow: hidden; } 
+.f03 .aircheck01 .aircheck_list .aircheck_btn img.active_img { position: absolute; top: 0; left: 0; width: 100%; display: none; opacity: 0; background-color: #003a66; }
+.f03 .aircheck01 .aircheck_list .aircheck_btn > a.active img.active_img { display: block; opacity: 1;  }
+.f03 .aircheck01 .aircheck_list .aircheck_btn > a { background: none; }
+.f03 .aircheck01 .aircheck_list .aircheck_btn > a.active .aircheck_btn_inner { background-color: #003a66; }
+.f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt { position: absolute; top: 38px; left: 4px; width: 100%;  }
+.f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt .top_txt { font-family:'SECGCWB'; color: #000; font-size: 24px; line-height: 26px; letter-spacing: -0.4px; }
+.f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt .bottom_txt { font-family:'SECGCWM'; color: #314851; font-size: 18px; line-height: 26px; letter-spacing: -0.6px; }
+.f03 .aircheck01 .aircheck_list .aircheck_btn > a.active .top_txt, .f03 .aircheck01 .aircheck_list .aircheck_btn > a.active .bottom_txt { color: #fff; }
+.f03 .aircheck01 .aircheck_list .aircheck_list_caption { bottom: 50px; margin-left: -194px; }
+
+
+.f03 .aircheck01 .aircheck_list .caption_click_popup { position: absolute; left: 50%; top: 50%; width: 458px; margin-left: -229px; margin-top: -318px; background: #fff; text-align: center; z-index: 1; display: none; opacity: 0; }
+.f03 .aircheck01 .aircheck_list .caption_click_popup .popup_inner { position: relative; width: 100%; height: 100%; border: 1px solid #e1e1e1; padding: 30px 28px 20px 28px; box-sizing: border-box; }
+.f03 .aircheck01 .aircheck_list .caption_click_popup strong { display: inline-block; font-size: 28px; line-height: 1.32; margin-bottom: 20px; }
+.f03 .aircheck01 .aircheck_list .caption_click_popup table { color: #595959; font-size: 20px; width: 100%; text-align: center; }
+.f03 .aircheck01 .aircheck_list .caption_click_popup th { border-bottom: 3px solid #919191; padding: 12px 0; }
+.f03 .aircheck01 .aircheck_list .caption_click_popup th.popup_tb_blue { background-color: #0074c2; font-size: 26px; border-bottom: 0; color: #fff; }
+.f03 .aircheck01 .aircheck_list .caption_click_popup .popup_tb_left { border-right: 2px solid #d1d1d1; font-family:'SECGCWL';  }
+.f03 .aircheck01 .aircheck_list .caption_click_popup .popup_tb_left b { font-weight: normal;font-family:'SECGCWM';  }
+.f03 .aircheck01 .aircheck_list .caption_click_popup td { border-bottom: 2px solid #d1d1d1; padding: 12px 0; font-family:'SECGCWM';  }
+.f03 .aircheck01 .aircheck_list .caption_click_popup .popup_note { font-size: 20px; text-align: right; margin-top: 20px; }
+.f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close { display: block; position: absolute; right: 10px; top: 10px; margin-right: -10px; margin-top: -10px; }
+.f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close a { display: block; margin: 5px; }
+.f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close a img { box-sizing: content-box; width: 20px; height: 20px; padding: 10px; }
+
+
+
+.f03 .aircheck04 .aircheck_list .aircheck_list_caption { bottom: 67px; }
+.f03 .aircheck04 .aircheck_list .aircheck_list_caption .caption_popup { text-align: left; font-size: 18px; line-height: 1.44; padding: 40px 40PX 0 40px; letter-spacing: -0.6px; width: 469px; height: 267px; margin-left: -238px; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-popup-bg-2.png') no-repeat 100% 100%; background-size: 100% 100%; }
+.f03 .aircheck04 .aircheck_list .aircheck_list_caption .caption_popup .top_txt { font-family:'SECGCWB'; color: #000; }
+.f03 .aircheck04 .aircheck_list .aircheck_list_caption .caption_popup .mid_txt { font-family:'SECGCWL'; color: #000; }
+.f03 .aircheck04 .aircheck_list .aircheck_list_caption .caption_popup .bottom_txt { font-family:'SECGCWB'; color: #003a66; }
+
+.f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_999 { margin-left: -320px; }
+.f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_9 { margin-left: 154px; }
+
+.f03 .aircheck05 .aircheck_list .aircheck_btn01 .btn_txt { padding: 0; }
+.f03 .aircheck05 .aircheck_list .aircheck_btn .btn_ico { display: inline-block; position: relative; margin-bottom: 17px; }
+.f03 .aircheck05 .aircheck_list .aircheck_btn .btn_ico img { display: block; width: 100%; }
+.f03 .aircheck05 .aircheck_list .aircheck_btn .btn_ico img.active_img { position: absolute; left: 0; top: 0; display: none; }
+.f03 .aircheck05 .aircheck_list .aircheck_btn > a.active .btn_ico img { opacity: 0; }
+.f03 .aircheck05 .aircheck_list .aircheck_btn > a.active .btn_ico img.active_img { display: block; opacity: 1; }
+.f03 .aircheck05 .aircheck_list .aircheck_btn01 .btn_ico { width: 84px; }
+.f03 .aircheck05 .aircheck_list .aircheck_btn02 .btn_ico { width: 39px; }
+
+.f03 .aircheck07 .aircheck_list .aircheck_btn .btn_ico { display: inline-block; position: relative; margin-bottom: 17px; }
+.f03 .aircheck07 .aircheck_list .aircheck_btn .btn_ico img { display: block; width: 100%; }
+.f03 .aircheck07 .aircheck_list .aircheck_btn .btn_ico img.active_img { position: absolute; left: 0; top: 0; display: none; }
+.f03 .aircheck07 .aircheck_list .aircheck_btn > a.active .btn_ico img { opacity: 0; }
+.f03 .aircheck07 .aircheck_list .aircheck_btn > a.active .btn_ico img.active_img { display: block; opacity: 1; }
+.f03 .aircheck07 .aircheck_list .aircheck_btn01 .btn_ico { width: 84px; }
+.f03 .aircheck07 .aircheck_list .aircheck_btn02 .btn_ico { width: 69px; }
+.f03 .aircheck07 .aircheck_list .aircheck_btn03 .btn_ico { width: 78px; }
+
+
+.f03 .aircheck_next, .f03 .aircheck_finish { box-sizing: border-box; position: absolute; bottom: 30px; left: 50%; margin-lefT: -115px; display: block; width: 230px; height: 60px; background: rgba(255,255,255,0.2) url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-btn-bg.png') no-repeat 100% 100%; background-size: 100% 100%; border: 1px solid #003a66; color: #000; font-family:'SECGCWB'; font-size: 24px; line-height: 60px; text-align: center; }
+.f03 .aircheck_next.hover, .f03 .aircheck_finish.hover { background: #003a66 url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-btn-bg-2.png') no-repeat 100% 100%; background-size: 100% 100%; color: #fff; } 
+.f03 .aircheck_cs { position: absolute; left: 58px; top: 280px; display: none; }
+.f03 .aircheck_cs .cs_wrap { margin-right: 14px; }
+.f03 .aircheck_cs .cs_wrap a, .f03 .aircheck_cs .cs_wrap span { background: #003a66; width: 14px; height: 14px; margin-right: 8px; }
+.f03 .cs_count { color: #314851; margin-top: -3px; }
+.f03 .cs_count span { color: #053d77; }
+.f03 .replay_btn { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-ico-01_1.png') no-repeat 100% 100%; background-size: 100% 100%; color: #003a66; top: 240px; display: none; }
+
+.f03 .aircheck_result { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.f03 .aircheck_result .result_pd_img { text-align: center; position: absolute; left: 50%; top: 110px; }
+.f03 .aircheck_result .result_pd_img .pd_img_area { position: relative; background: rgba(255,255,255,0.6); border-radius: 50%; width: 380px; height: 380px; }
+.f03 .aircheck_result .result_pd_img .pd_img_area img { width: 100%; }
+.f03 .aircheck_result .result_pd_img .pd_img_area p { display: block; width: 100%; position: absolute; left: 0; bottom: 0; font-family:'SECGCWB'; font-size: 18px; line-height: 1; }
+.f03 .aircheck_result .result_pd_img .result_pd_btn { box-sizing: border-box; display: inline-block; border: 1px solid #003a66; background: rgba(255,255,255,0.1) url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-btn-bg-3.png') no-repeat 100% 100%; background-size: 100% 100%; color: #000; font-family:'SECGCWB'; width: 156px; height: 50px; font-size: 18px; line-height: 50px; margin-top: 20px; }
+.f03 .aircheck_result .result_pd_img .result_pd_btn.hover { background: #003a66 url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-btn-bg-4.png') no-repeat 100% 100%; background-size: 100% 100%; border-color: #003a66; color: #fff; }
+
+.f03 .aircheck_result .result_pd_img.pd_left { margin-left: -640px; }
+.f03 .aircheck_result .result_pd_img.pd_right { margin-left: 260px; }
+
+.f03 .aircheck_result .result_pd_spec_w { position: relative; width: 480px; margin: 0 auto; padding-top: 150px}
+.f03 .aircheck_result .result_pd_spec_w .result_pd_spec { position: absolute; top: 0; font-family:'SECGCWB'; font-size: 16px; line-height: 37px; width: 145px; }
+.f03 .aircheck_result .result_pd_spec_w .spec_title { position: relative; width: 100%; text-align: center; color: #003a66; }
+.f03 .aircheck_result .result_pd_spec_w .spec_title ul li { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-spec-bg.png') no-repeat bottom center; background-size: 100% 1px; }
+.f03 .aircheck_result .result_pd_spec_w .spec_title ul li:last-child { background: none; }
+.f03 .aircheck_result .result_pd_spec_w .spec_left { text-align: right; left: 0; }
+.f03 .aircheck_result .result_pd_spec_w .spec_right { text-align: left; right: 0; }
+.f03 .aircheck_result .result_pd_spec_w sup { font-size: 10px; line-height: 1; }
+
+
+.f03 .aircheck_result.one_result .result_pd_img { margin-left: -398px; }
+
+.f03 .aircheck_result.one_result .result_pd_spec_w { margin-left: 702px; }
+.f03 .aircheck_result.one_result .result_pd_spec_w .result_pd_spec.spec_title { text-align: left; }
+.f03 .aircheck_result.one_result .result_pd_spec_w .result_pd_spec.single_spec { width: 236px; left: auto; right: 0; }
+.f03 .aircheck_result.one_result .result_pd_spec_w .spec_title ul li { background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-spec-bg-2.png') no-repeat bottom center; background-size: 100% 1px; box-sizing: border-box; padding-left: 80px; }
+.f03 .aircheck_result.one_result .result_pd_spec_w .spec_title ul li:last-child { background: none; }
+
+.f03 .aircheck_result_w .cs_wrap { position: absolute; text-align: center; width: 100%; left: 0; bottom: 26px; }
+.f03 .aircheck_result_w .cs_wrap a { background: #003a66; }
+
+.f03 .aircheck_result_notice { position: absolute; bottom: 56px; left: 50%; width: 700px; margin-left: -350px; font-family:'SECGCWM'; font-size: 14px; line-height: 1.57; text-align: center; letter-spacing: -0.4px; color: #5a5a5a; }
+
+.f03 .aircheck_r.type2 .aircheck_result_notice { text-align: left; width: 276px; margin-left: 62px; }
+.f03 .aircheck_r.type2 .aircheck_result_notice p { display: block; position: relative; padding-left: 14px;}
+.f03 .aircheck_r.type2 .aircheck_result_notice p:first-child { margin-bottom: 4px; }
+.f03 .aircheck_r.type2 .aircheck_result_notice p .notice_mark { position: absolute; left: 0; }
+
+
+.f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine { position: relative; display: inline-block; }
+.f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_txt { color: #0568ca; position: relative; }
+.f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_txt::after { display: block; width: 101%; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f00_underline.png') repeat-x 0 100%; background-size: auto 100%; position: absolute; left: 0; top: 100%; height: 2px; content: " "; margin-top: 1px; }
+.f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup { box-sizing: border-box; position: absolute; bottom: 100%; left: 50%; width: 379px; height: 150px; margin-left: -183px; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-08-popup-bg.png') no-repeat 100% 100%; background-size: 100% 100%; padding: 43px 0 0 0; margin-bottom: -13px; }
+.f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_txt { font-family:'SECGCWL'; text-align: center; font-size: 18px; line-height: 26px; }
+.f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_close { display: none; position: absolute; top: 27px; right: 30px; margin-top: -10px; margin-right: -10px; }
+.f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_close img { box-sizing: content-box; display: block; width: 30px; padding: 10px; }
+.ac_wrap.device .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_close { display: block; }
+.f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup { display: none; opacity: 0; }
+
+
+.f03 .aircheck_r { display: none; opacity: 0; }
+.f03 .aircheck_next, .f03 .aircheck_finish { display: none; opacity: 0; }
+.f03 .aircheck_box { display: none; opacity: 0; }
+.f03 .aircheck01 { display: block; opacity: 1; }
+
+
+.f_banner { margin-top: 30px; }
+.f_banner .obj { position: relative; width: 100%; }
+.f_banner .txt { position: absolute; width: 50%; height: 100%; left: 0; top: 0; box-sizing: border-box; padding-left: 130px; text-align: left; color: #2f2f2f; font-family:'SECGCWB'; }
+.f_banner .txt .top_txt { font-size: 26px; line-height: 1;  }
+.f_banner .txt .mid_txt { font-family: 'NanumBarunBold'; font-size: 74px; line-height: 1; letter-spacing: -0.4px; margin-top: 28px; }
+.f_banner .txt .bot_txt { font-size: 18px; line-height: 26px; margin-top: 20px; }
+.f_banner .txt .banner_btn { box-sizing: border-box; display: block; color: #2f2f2f; font-family:'SECGCWM'; border: 1px solid #2f2f2f; border-radius: 47px; width: 132px; height: 47px; font-size: 14px; line-height: 47px; text-align: center; margin-top: 32px; }
+.f_banner .txt .banner_btn.hover { background-color: #2e2e2e; color: #fff; border-color: #2e2e2e; }
+
+
+@media (max-width:1440px){ 
+
+
+    .ac_wrap .txt .feature-title { font-size: 3.33vw; line-height: 4.02vw; }
+    .ac_wrap .txt .feature-desc { font-size: 1.25vw; line-height: 1.94vw; margin-top: 1.875vw; letter-spacing: -0.04vw; }
+    .ac_wrap .txt .feature-notice .notice { font-size: 0.97vw; }
+
+    .ac_wrap .cs_wrap { margin-right: 0.69vw; }
+    .ac_wrap .cs_wrap a, .ac_wrap .cs_wrap span { margin-right: 0.27vw; }
+    .ac_wrap .replay_btn { width: 7.43vw; height: 7.43vw; right: 4.02vw; top: 4.3vw; font-size: 1.04vw; }
+
+
+    .f01 .txt { top: 19.09vw; }
+    .f01 .txt .top_txt { font-size: 3.81vw; line-height: 4.86vw; }
+    .f01 .txt .bottom_txt { font-size: 1.25vw; line-height: 1.94vw; margin-top: 1.38vw; letter-spacing: -0.04vw; }
+    .f01 .txt .bottom_txt b { letter-spacing: -0.05vw; }
+    .f01 .txt .start_btn { width: 15.97vw; height: 4.16vw; font-size: 1.66vw; line-height: 4.16vw; margin-top: 5.2vw; }
+    .f01 .ver_line { height: 2.22vw; margin-left: -0.13vw; margin-top: 1.73vw; }
+
+    .f01 .airtest_txt { top: 15.06vw; }
+    .f01 .airtest_txt .airtest_num { font-size: 1.66vw; }
+    .f01 .airtest_txt .airtest_quest { font-size: 3.33vw; line-height: 4.02vw; margin-top: 0.97vw; }
+
+    .f01 .airtest_select .select_element { width: 20.83vw; height: 20.9vw; margin-top: -0.27vw; }
+    .f01 .airtest_select .select_o { margin-left: -35.55vw; }
+    .f01 .airtest_select .select_x { margin-left: 14.58vw; }
+
+    .f01 .airtest_cs { left: 4.02vw; top: 6.8vw; }
+    .f01 .airtest_title { top: 7.22vw; margin-left: -12.29vw; font-size: 1.66vw; }
+
+
+    .f01 .airtest_r .txt { top: 8.75vw; }
+    .f01 .airtest_r .txt .feature-title { margin-top: 3.75vw; }
+    .f01 .airtest_r .txt .feature-notice { font-size: 0.97vw; }
+    .f01 .airtest_r .airtest_r_cm_btn { width: 27.77vw; height: 4.16vw; font-size: 1.66vw; line-height: 4.16vw; margin-top: 4.44vw; }
+    .f01 .airtest_r .airtest_r_btn02 { margin-top: 1.38vw; }
+
+    .f02 { margin: 2.08vw 0; }
+    .f02 .txt { top: 6.52vw; }
+    .f02 .txt .feature-top-title { font-size: 1.52vw; margin-bottom: 1.94vw; }
+    .f02 .txt .feature-notice { font-size: 0.97vw; margin-top: 1.52vw; }
+    .f02 .slider_wrap .slider .slider_el .guide_ico { width: 21.25vw; height: 4.3vw; font-size: 1.66vw; line-height: 4.3vw; margin-left: -10.625vw; margin-top: -9.72vw; }
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap { top: 32.63vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico { width: 14.44vw; margin: 0 0.97vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico01 img { width: 2.91vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico02 img { width: 3.81vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico03 img { width: 4.09vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico04 img { width: 3.88vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico05 img { width: 3.4vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title { font-size: 1.38vw; margin-top: 1.66vw; }
+
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup { width: 29.79vw; height: 29.65vw; margin-left: -12.01vw; padding: 3.33vw 3.33vw 0 2.98vw; margin-bottom: -0.48vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup img { width: 17.22vw; margin-left: 3.05vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt { font-size: 1.25vw; line-height: 1.8vw; margin-top: 1.66vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt { font-size: 0.97vw; top: 14.16vw; margin-left: -1.52vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt p { padding-left: 0.69vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .bottom_txt { margin-top: 0.27vw; padding-left: 0.69vw; }
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_close { top: 1.18vw; right: 2.08vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_close img { width: 2.08vw; }
+
+
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_desc { font-size: 0.97vw; margin-top: 0.9vw; }
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_txt::after { height: 0.13vw; margin-top: 0.3vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_txt::after { height: 0.13vw; margin-top: 0.1vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_txt::after { height: 0.13vw; margin-top: 0.1vw; }
+
+
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup { width: 27.63vw; height: 25vw; margin-left: -13.61vw; padding: 3.95vw 3.33vw 0 2.98vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup img { width: 17.22vw; margin-top: 2.08vw; margin-left: 2.08vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt { font-size: 1.25vw; line-height: 1.8vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .popup_tt { font-size: 1.52vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .notice_txt { font-size: 0.97vw; top: 18.33vw; margin-left: -1.38vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .notice_txt p { padding-left: 0.69vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .bottom_txt { margin-top: 0.27vw; padding-left: 0.69vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_close { top: 1.875vw; right: 2.08vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_close img { width: 2.08vw; }
+
+
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_txt::after { margin-top: 0.1vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup { width: 26.8vw; height: 19.02vw; margin-left: -12.5vw; padding: 2.29vw 0 0 0; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt { font-size: 1.25vw; line-height: 1.8vw; margin-top: 1.66vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .notice_txt { font-size: 0.97vw; top: 14.16vw; margin-left: -1.52vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .top_txt { font-size: 1.52vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .mid_txt { margin-top: 1.31vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt { font-size: 1.04vw; margin-top: 1.875vw;  padding-right: 1.38vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt p { width: 16.38vw; min-width: 160px; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_close { top: 1.875vw; right: 2.08vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_close img { width: 2.08vw; }
+
+
+
+    .f02 .slider_wrap .slider .slider_el02 .txt { margin-top: -3.19vw; }
+    .f02 .slider_wrap .slider .slider_el03 .txt { margin-top: -3.19vw; }
+    .f02 .slider_wrap .slider .slider_el04 .txt { margin-top: -3.19vw; }
+    .f02 .slider_wrap .slider .slider_el05 .txt { margin-top: -3.19vw; }
+    .f02 .slider_wrap .slider .slider_el06 .txt { margin-top: -3.19vw; }
+
+    .f02 .slider_wrap .slider .slider_el06 .guide_ico_btn { width: 27.01vw; height: 4.3vw; font-size: 1.66vw; line-height: 4.3vw; margin-top: -7.5vw; margin-left: -13.5vw; }
+
+    .f02 .slider_wrap .slider .slider_el06 .guide_ico_btn .slider_el06_right { width: 4.375vw; height: 7.77vw; margin-top: -3.88vw; right: -4.375vw; }
+
+    .f02 .slider_wrap .slider_control .arrow_btn a { width: 4.375vw; height: 7.77vw; margin-top: -3.88vw; }
+    .f02 .slider_wrap .slider_control .arrow_btn a.left { left: 1.94vw; }
+    .f02 .slider_wrap .slider_control .arrow_btn a.right { right: 1.94vw; }
+
+    .f02 .slider_wrap .slider_control .cs_wrap { bottom: 1.66vw; }
+
+
+    .f02 .replay_btn { top: 0.83vw; }
+
+
+    .f03 .txt { top: 2.77vw; }
+
+    .f03 .aircheck_list { padding-top: 15.27vw; }
+    .f03 .aircheck_list .aircheck_list_title { font-size: 2.5vw; line-height: 3.33vw; top: 3.33vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap { padding-top: 10.97vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn { width: 23.75vw; height: 23.75vw; margin: 0 1.59vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn { margin: 0 4.02vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt { font-size: 1.66vw; line-height: 2.63vw; padding: 0 0.97vw;}
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt.use_small_txt { font-size: 1.52vw; line-height: 2.5vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt.use_small_txt .top_txt { font-size: 4.16vw; margin-bottom: 2.36vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt .btn_txt_notice { bottom: -3.61vw; font-size: 1.11vw; }
+
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption { bottom: 5.94vw; margin-left: -3.47vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .aircheck_lisk_caption_in > a { font-size: 1.25vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup { margin-bottom: 0.27vw; margin-left: -9.72vw; width: 20.13vw; height: 10.2vw; }
+
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup .popup_close { top: 1.18vw; right: 1.875vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup .popup_close img { width: 2.08vw; }
+
+    .f03 .aircheck01 .aircheck_list .aircheck_list_caption .aircheck_lisk_caption_in > a { line-height: 1.8vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn_wrap { padding-top: 9.16vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt { top: 2.63vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt .top_txt { font-size: 1.66vw; line-height: 1.8vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt .bottom_txt { font-size: 1.25vw; line-height: 1.8vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_list_caption { bottom: 3.47vw; margin-left: -13.47vw; }
+
+
+    .f03 .aircheck01 .aircheck_list .caption_click_popup { width: 31.8vw; margin-left: -15.9vw; margin-top: -22.08vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_inner { padding: 2.08vw 1.94vw 1.38vw 1.94vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup strong { font-size: 1.94vw; margin-bottom: 1.38vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup table { font-size: 1.38vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup th { padding: 0.83vw 0; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup th.popup_tb_blue { font-size: 1.8vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup td { padding: 0.83vw 0; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_note { font-size: 1.38vw; margin-top: 1.38vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close { right: 0.69vw; top: 0.69vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close a { margin: 0.34vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close a img { width: 1.38vw; height: 1.38vw; }
+
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption { bottom: 3.65vw; }
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption .caption_popup { font-size: 1.25vw; padding: 2.77vw 2.77vw 0 2.77vw; width: 32.56vw; height: 18.54vw; margin-left: -16.52vw;}
+
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_999 { margin-left: -22.22vw; }
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_9 { margin-left: 10.69vw; }
+
+    .f03 .aircheck05 .aircheck_list .aircheck_btn .btn_txt { padding: 0; }
+    .f03 .aircheck05 .aircheck_list .aircheck_btn .btn_ico { margin-bottom: 1.18vw; }
+    .f03 .aircheck05 .aircheck_list .aircheck_btn01 .btn_ico { width: 5.83vw; }
+    .f03 .aircheck05 .aircheck_list .aircheck_btn02 .btn_ico { width: 2.7vw; }
+
+    .f03 .aircheck07 .aircheck_list .aircheck_btn .btn_ico { margin-bottom: 1.18vw; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn01 .btn_ico { width: 5.83vw; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn02 .btn_ico { width: 4.79vw; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn03 .btn_ico { width: 5.41vw; }
+
+
+    .f03 .aircheck_next, .f03 .aircheck_finish { bottom: 1.08vw; margin-lefT: -7.98vw; width: 15.97vw; height: 4.16vw; font-size: 1.66vw; line-height: 4.16vw; }
+    .f03 .aircheck_cs { left: 4.02vw; top: 19.44vw; }
+    .f03 .aircheck_cs .cs_wrap { margin-right: 0.97vw; }
+    .f03 .aircheck_cs .cs_wrap a, .f03 .aircheck_cs .cs_wrap span { margin-right: 0.55vw; }
+    .f03 .replay_btn { top: 16.66vw; }
+
+    .f03 .aircheck_result .result_pd_img { top: 7.63vw; }
+    .f03 .aircheck_result .result_pd_img .pd_img_area { width: 26.38vw; height: 26.38vw; }
+    .f03 .aircheck_result .result_pd_img .pd_img_area p { font-size: 1.25vw; }
+    .f03 .aircheck_result .result_pd_img .result_pd_btn { width: 10.83vw; height: 3.47vw; font-size: 1.25vw; line-height: 3.47vw; margin-top: 1.38vw; }
+
+    .f03 .aircheck_result .result_pd_img.pd_left { margin-left: -44.44vw; }
+    .f03 .aircheck_result .result_pd_img.pd_right { margin-left: 18.05vw; }
+
+    .f03 .aircheck_result .result_pd_spec_w { width: 33.33vw; padding-top: 10.41vw; }
+    .f03 .aircheck_result .result_pd_spec_w .result_pd_spec { font-size: 1.11vw; line-height: 2.56vw; width: 10.06vw; }
+    .f03 .aircheck_result .result_pd_spec_w .spec_title { width: 100%; }
+
+
+    .f03 .aircheck_result.one_result .result_pd_img { margin-left: -27.63vw; }
+
+    .f03 .aircheck_result.one_result .result_pd_spec_w { margin-left: 48.75vw; }
+    .f03 .aircheck_result.one_result .result_pd_spec_w .result_pd_spec.single_spec { width: 16.38vw; }
+    .f03 .aircheck_result.one_result .result_pd_spec_w .spec_title ul li { padding-left: 5.55vw; }
+
+    .f03 .aircheck_result_w .cs_wrap { bottom: 1.8vw; }
+
+    .f03 .aircheck_result_notice { bottom: 3.88vw; width: 48.61vw; margin-left: -24.3vw; font-size: 0.97vw; }
+
+    .f03 .aircheck_r.type2 .aircheck_result_notice { width: 26.16vw; margin-left: 4.3vw; }
+    .f03 .aircheck_r.type2 .aircheck_result_notice p { padding-left: 0.97vw;}
+    .f03 .aircheck_r.type2 .aircheck_result_notice p:first-child { margin-bottom: 0.27vw; }
+
+
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_txt::after { height: 0.13vw; margin-top: 0.06vw; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup { width: 26.31vw; height: 10.41vw; margin-left: -12.7vw; padding: 2.98vw 0 0 0; margin-bottom: -0.9vw; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_txt { font-size: 1.25vw; line-height: 1.8vw; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_close { top: 1.875vw; right: 2.08vw; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_close img { width: 2.08vw; }
+
+
+
+
+    .f_banner { margin-top: 2.08vw; }
+    .f_banner .txt { padding-left: 9.02vw; }
+    .f_banner .txt .top_txt { font-size: 1.8vw; }
+    .f_banner .txt .mid_txt { font-size: 5.13vw; margin-top: 1.94vw; }
+    .f_banner .txt .bot_txt { font-size: 1.25vw; line-height: 1.8vw; margin-top: 1.38vw; }
+    .f_banner .txt .banner_btn { width: 9.16vw; height: 3.26vw; font-size: 0.97vw; line-height: 3.26vw; margin-top: 2.22vw; }
+
+
+
+}
+
+@media (max-width:1100px){ 
+
+    .ac_wrap .cs_wrap a, .ac_wrap .cs_wrap span { width: 8px; height: 8px; margin-right: 4px; }
+    .ac_wrap .cs_count { font-size: 16px; } 
+    .f03 .aircheck_cs { top: 19.04vw; }
+    .f03 .aircheck_cs .cs_wrap { margin-right: 4px; }
+    .f03 .aircheck_cs .cs_wrap a { width: 10px; height: 10px; margin-right: 4px; }
+    .f03 .aircheck_cs .cs_wrap a, .f03 .aircheck_cs .cs_wrap span { width: 8px; height: 8px; margin-right: 4px; }
+
+}
+
+
+@media (max-width:800px){ 
+
+    .f03 .aircheck_cs { top: 18.84vw; }
+
+}
+
+
+
+
+@media (max-width:768px){
+
+    .ac_wrap .m_only { display: block; }
+    .ac_wrap .w_only { display: none; }
+
+    .ac_wrap .txt { padding: 0 2.6vw; }
+    .ac_wrap .txt .feature-title { font-size: 6.51vw; line-height: 8.07vw; }
+    .ac_wrap .txt .feature-desc { font-size: 3.125vw; line-height: 4.94vw; margin-top: 2.86vw; letter-spacing: -0.6px; }
+    .ac_wrap .txt .feature-notice .notice { font-size: 2.6vw; line-height: 4.94vw; margin-top: 0.52vw; }
+
+    .ac_wrap .cs_wrap { margin-right: 1.69vw; }
+    .ac_wrap .cs_wrap a, .ac_wrap .cs_wrap span { width: 12px; height: 12px; margin-right: 0.52vw; }
+    .ac_wrap .cs_count { font-size: 24px; vertical-align: middle; }
+    .ac_wrap .replay_btn { width: 17.05vw; height: 17.05vw; right: 3.9vw; top: 3.9vw; font-size: 3.125vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f01-ico-01_1.png') no-repeat 100% 100%; background-size: 100% 100%; }
+
+
+    .f01 .txt { top: 49.73vw; padding: 0 2.6vw; }
+    .f01 .txt .top_txt { font-size: 9.11vw; line-height: 11.06vw; }
+    .f01 .txt .bottom_txt { font-size: 3.38vw; line-height: 5.2vw; margin-top: 8.07vw; letter-spacing: -0.6px; }
+    .f01 .txt .bottom_txt b { letter-spacing: -0.8px; }
+    .f01 .txt .start_btn { width: 52.34vw; height: 13.67vw; font-size: 5.07vw; line-height: 13.67vw; margin-top: 10.93vw; }
+    .f01 .ver_line { height: 4.16vw; margin-left: -0.26vw; margin-top: 15.1vw; }
+
+    .f01 .airtest_txt { top: 50.13vw; }
+    .f01 .airtest_txt .airtest_num { font-size: 4.16vw; }
+    .f01 .airtest_txt .airtest_quest { font-size: 7.81vw; line-height: 10.41vw; margin-top: 5.2vw; }
+    .f01 .airtest06 .airtest_txt .airtest_quest { font-size: 7.81vw; }
+
+    .f01 .airtest_select .select_element { width: 37.89vw; height: 37.76vw; margin-top: 7.29vw; }
+    .f01 .airtest_select .select_o { margin-left: -41.66vw; }
+    .f01 .airtest_select .select_x { margin-left: 3.38vw; }
+
+    .f01 .airtest_cs { left: 3.9vw; top: 11.19vw; }
+    .f01 .airtest_title { font-family:'SECGCWM'; top: 34.11vw; text-align: center; width: 100%; left: 0; margin-left: 0; font-size: 3.38vw; }
+
+
+    .f01 .airtest_r .txt { top: 22.65vw; padding: 0; }
+    .f01 .airtest_r .txt .feature-title { font-size: 8.46vw; line-height: 10.41vw; margin-top: 9.11vw; }
+    .f01 .airtest_r .txt .feature-desc { font-family:'SECGCWM'; font-size: 3.64vw; line-height: 5.46vw; margin-top: 2.6vw; }
+    .f01 .airtest_r .txt .feature-notice { font-size: 3.125vw; line-height: 4.94vw; }
+    .f01 .airtest_r .airtest_r_cm_btn { width: 87.5vw; height: 13.67vw; font-size: 5.07vw; line-height: 13.67vw; margin-top: 10.67vw; }
+    .f01 .airtest_r .airtest_r_btn02 { margin-top: 3.9vw; }
+    .f01 .airtest_r .txt .txt_ending02 { margin-top: -2.86vw; }
+    .f01 .airtest_r .txt .txt_ending04 { padding-top: 5.2vw; }
+
+
+
+    .f02 { margin: 2.6vw 0; }
+    .f02 .txt { top: 12.76vw; }
+    .f02 .txt .feature-desc { font-size: 3.64vw; line-height: 5.46vw; }
+    .f02 .txt .feature-top-title { font-size: 2.86vw; margin-bottom: 3.9vw; }
+    .f02 .txt .feature-notice .notice { font-size: 3.125vw; line-height: 4.94vw; margin-top: 5.2vw; color: #454545; }
+    .f02 .slider_wrap .slider .slider_el .guide_ico { width: 42.7vw; height: 9.11vw; font-size: 3.38vw; line-height: 9.11vw; margin-top: -28.38vw; margin-left: -21.35vw; }
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap { top: 73.43vw; left: 0; text-align: center; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico { width: 26.82vw; margin: 0; box-sizing: border-box; padding: 0 1.3vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico01 img { width: 9.63vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico02 img { width: 11.71vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico03 img { width: 10.93vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico04 { padding: 0; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico04 img { width: 10.93vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico05 img { width: 10.28vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title { font-size: 3.64vw; margin-top: 3.25vw; }
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_txt::after { min-height: 1px; height: 0.26vw; margin-top: 0.39vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f00_underline-m.png') repeat-x 0 100%; background-size: auto 100%; }
+
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup { width: 95.44vw; height: 40.88vw; margin-left: -19.53vw; padding: 5.85vw 6.25vw 0 5.72vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-01-popup-bg-m_1.png') no-repeat 100% 100%; background-size: 100% 100%; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup img { width: 33.33vw; margin-left: 0; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt { position: absolute; left: 50%; top: 4.16vw; font-size: 3.125vw; line-height: 4.68vw; margin-top: 1.3vw; margin-left: -4.81vw; padding-right: 4vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt { font-size: 2.34vw; line-height: 3.125vw; top: 21.22vw; margin-left: -50.26vw; } 
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt p { padding-left: 1.56vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .top_txt { font-size: 3.64vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .bottom_txt { margin-top: 4.42vw; padding-left: 2.34vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_close { top: 2.99vw; right: 3.68vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_close img { width: 3.9vw; }
+
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_desc { font-size: 3.125vw; line-height: 4.68vw; margin-top: 1.3vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_desc br { display: none; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico05 .ico_desc br { display: block; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico04, .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico05 { width: 31.03vw; margin-top: 10.15vw; }
+
+
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_txt::after { min-height: 1px; height: 0.26vw; margin-top: 0.39vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f00_underline-m.png') repeat-x 0 100%; background-size: auto 100%; }
+
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup { width: 60.41vw; height: 52.73vw; margin-left: -42.18vw; padding: 8.72vw 6.25vw 0 5.72vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-02-popup-bg-m_2.png') no-repeat 100% 100%; background-size: 100% 100%; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup img { width: 33.33vw; margin-top: 5.07vw; margin-left: 7.16vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt {  }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .popup_tt { font-size: 3.38vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .notice_txt { font-size: 2.34vw; line-height: 3.125vw; top: 38.02vw; margin-left: -2.6vw; } 
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .notice_txt p { padding-left: 1.56vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .top_txt { font-size: 3.64vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .bottom_txt { margin-top: 4.42vw; padding-left: 2.34vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_close { top: 4.29vw; right: 4.16vw; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_close img { width: 3.9vw; margin: 0; }
+
+
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_txt::after { min-height: 1px; height: 0.26vw; margin-top: 0.39vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f00_underline-m.png') repeat-x 0 100%; background-size: auto 100%; }
+
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup { width: 63.93vw; height: 41.4vw; margin-left: -37.23vw; padding: 7.03vw 0 0 0; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-03-popup-bg-m_1.png') no-repeat 100% 100%; background-size: 100% 100%; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .top_txt { font-size: 3.38vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .mid_txt { font-size: 3.125vw; margin-top: 3.64vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt { color: #000; font-size: 2.34vw; line-height: 1.44; margin-top: 5.59vw;  }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt p { width: 37.1vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_close { top: 4.29vw; right: 4.16vw; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_close img { width: 3.9vw; }
+
+
+    .f02 .slider_wrap .slider .slider_el02 .txt { margin-top: 0; padding: 0; }
+    .f02 .slider_wrap .slider .slider_el03 .txt { margin-top: 0; padding: 0; }
+    .f02 .slider_wrap .slider .slider_el04 .txt { margin-top: 0; }
+    .f02 .slider_wrap .slider .slider_el05 .txt { margin-top: 0; }
+    .f02 .slider_wrap .slider .slider_el06 .txt { margin-top: 0; }
+
+    .f02 .slider_wrap .slider .slider_el06 .guide_ico_btn { width: 54.68vw; height: 9.11vw; font-size: 3.38vw; line-height: 9.11vw; margin-top: -10.93vw; margin-left: -27.34vw; }
+
+    .f02 .slider_wrap .slider .slider_el06 .guide_ico_btn .slider_el06_right { width: 6.38vw; height: 10.67vw; margin-top: -5.33vw; right: -7.03vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-arrow-02-m_1.png') no-repeat 100% 100%; background-size: 100% 100%; }
+
+
+    .f02 .slider_wrap .slider_control .arrow_btn a { width: 6.38vw; height: 10.67vw; margin-top: 12.48vw;  }
+    .f02 .slider_wrap .slider_control .arrow_btn a.left { left: 1.95vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-arrow-01-m_1.png') no-repeat 100% 100%; background-size: 100% 100%; }
+    .f02 .slider_wrap .slider_control .arrow_btn a.right { right: 1.95vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f02-arrow-02-m_1.png') no-repeat 100% 100%; background-size: 100% 100%; }
+
+    .f02 .slider_wrap .slider_control .cs_wrap { bottom: 4.42vw; }
+    .f02 .slider_wrap .slider_control .cs_wrap a { width: 16px; height: 16px; }
+    .f02 .slider_wrap .slider_control .cs_wrap a > span { width: 12px; height: 12px; margin: -6px 0 0 -6px; }
+
+    .f02 .replay_btn { top: 1.3vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-ico-01-m_1.png') no-repeat 100% 100%; background-size: 100% 100%;}
+
+
+    .f03 .txt { top: 9.76vw; padding: 0; }
+    .f03 .txt .feature-title { white-space: nowrap; font-family:'SECGCWM'; } 
+
+    .f03 .aircheck_list { padding-top: 40.1vw; }
+    .f03 .aircheck_list .aircheck_list_title { font-size: 5.46vw; line-height: 7.29vw; top: 33.07vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap { padding-top: 57.16vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn { width: 29.42vw; height: 29.42vw; margin: 0 0.78vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn { width: 42.57vw; height: 42.57vw; margin: 0 3.125vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt { font-size: 3.125vw; line-height: 4.68vw; padding: 0 1.3vw;}
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt.use_small_txt { font-size: 3.125vw; line-height: 4.68vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt.use_small_txt .top_txt { font-size: 7.81vw; margin-bottom: 4.68vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt .btn_txt_notice { font-family:'SECGCWM'; position: static; bottom: auto; font-size: 2.6vw; line-height: 3.64vw; margin-top: 1.56vw; }
+
+    .f03 .aircheck_box .aircheck_list .aircheck_btn:first-child { margin-lefT: 0; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn:last-child { margin-right: 0; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn:nth-child(1) { margin-lefT: 0; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn:nth-child(2) { margin-right: 0; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn01 { margin-lefT: 0; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn02 { margin-right: 0; }
+
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption { bottom: 23.95vw; margin-left: -8.85vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .aircheck_lisk_caption_in > a { font-size: 3.125vw; line-height: 1;}
+
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup .popup_close { top: 2.73vw; right: 4.03vw; }
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup .popup_close img { width: 3.9vw; }
+
+    .f03 .aircheck01 .aircheck_list .aircheck_btn_wrap { padding-top: 53.9vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt { top: 32.81vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt .top_txt { font-size: 3.9vw; line-height: 4.55vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt .bottom_txt { font-size: 3.38vw; line-height: 4.55vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn > a.active .top_txt  { color: #000; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn > a.hover .top_txt  { color: #000; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn > a.active .bottom_txt { color: #314851; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn > a.hover .bottom_txt { color: #314851; }
+    .f03 .aircheck01 .aircheck_list .aircheck_list_caption { width: 100%; left: 0; margin-left: 0; text-align: center; bottom: 10.41vw; }
+    .f03 .aircheck01 .aircheck_list .aircheck_list_caption .aircheck_lisk_caption_in > a { display: inline-block; }
+
+
+
+    .f03 .aircheck01 .aircheck_list .caption_click_popup { width: 62.23vw; margin-left: -31.11vw; margin-top: -33.85vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_inner { padding: 3.125vw 3.9vw 3.9vw 3.9vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup strong { font-size: 4.16vw; margin-bottom: 3.125vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup table { font-size: 3.125vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup th { padding: 1.56vw 0; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup th.popup_tb_blue { font-size: 3.64vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup td { padding: 1.3vw 0; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_note { font-size: 2.86vw; margin-top: 2.34vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close { right: 3.125vw; top: 3.125vw; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close a { margin: 0; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close a img { width: 2.6vw; height: 2.6vw; }
+
+
+
+
+
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption { bottom: 22.65vw; }
+    .ac_wrap.pc .f03 .aircheck04 .aircheck_list .aircheck_list_caption { bottom: 18.26vw; }
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption .caption_popup { font-size: 3.125vw; line-height: 4.68vw; padding: 5.2vw 2.6vw 0 3.64vw; margin-bottom: -0.39vw; z-index: 1; }
+
+
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_999 { margin-left: -40.36vw; }
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_9 { margin-left: 10.8vw; }
+
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_999 .caption_popup { width: 59.63vw; height: 49.08vw; margin-left: -22.78vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-popup-bg-2-m-1.png') no-repeat 100% 100%; background-size: 100% 100%; }
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_9 .caption_popup { width: 64.58vw; height: 49.08vw; margin-left: -40.1vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-popup-bg-2-m-2.png') no-repeat 100% 100%; background-size: 100% 100%; }
+
+
+    .f03 .aircheck05 .aircheck_list .aircheck_btn01 .btn_ico { width: 10.93vw; }
+    .f03 .aircheck05 .aircheck_list .aircheck_btn02 .btn_ico { width: 5.07vw; }
+
+    .f03 .aircheck07 .aircheck_list .aircheck_btn .btn_txt { font-size: 2.47vw; line-height: 3.51vw; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn01 .btn_ico { width: 10.93vw; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn02 .btn_ico { width: 8.98vw; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn03 .btn_ico { width: 10.15vw; }
+
+    .f03 .aircheck07 .aircheck_list .aircheck_btn_wrap.two_set .btn_ico { margin-bottom: 5.46vw; }
+	.f03 .aircheck07 .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn01 .btn_ico { margin-top: -4.8vw; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn:nth-child(2) { margin-left: 0; margin-right: 3.125vw; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn:nth-child(3) { margin-left: 3.125vw; margin-right: 0; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn .btn_txt { font-size: 3.125vw; line-height: 4.68vw; }
+
+
+    .f03 .aircheck_next, .f03 .aircheck_finish { bottom: 10.41vw; margin-lefT: -16.6vw; width: 33.2vw; height: 9.63vw; font-size: 3.38vw; line-height: 9.63vw; background: rgba(255,255,255,0.3) url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-btn-bg-m.png') no-repeat 100% 100%; background-size: 100% 100%; }
+    .f03 .aircheck_next.hover, .f03 .aircheck_finish.hover { background: #003a66 url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-btn-bg-2-m.png') no-repeat 100% 100%; background-size: 100% 100%; color: #fff; } 
+    .f03 .aircheck_cs { left: 3.9vw; top: 51.82vw; }
+    .f03 .aircheck_cs .cs_wrap { margin-right: 1.04vw; }
+    .f03 .aircheck_cs .cs_wrap a, .f03 .aircheck_cs .cs_wrap span { width: 15px; height: 15px; margin-right: 0.78vw; }
+    .f03 .cs_count { margin-top: -2px; font-size: 20px; }
+    .f03 .replay_btn { top: 44.27vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-ico-01-m_1.png') no-repeat 100% 100%; background-size: 100% 100%;}
+
+
+    .f03 .aircheck_r .aircheck_list_title { top: 8.85vw; }
+
+    .f03 .aircheck_r .result_tab_w { width: 100%; position: absolute; left: 0; top: 22.78vw; text-align: center; z-index: 1; }
+    .f03 .aircheck_r .result_tab_w ul li { box-sizing: border-box; display: inline-block; width: 45.57%; height: 10.41vw; }
+    .f03 .aircheck_r .result_tab_w ul li:nth-child(2) { margin-left: 1.3%; }
+    .f03 .aircheck_r .result_tab_w ul li a { box-sizing: border-box; font-family:'SECGCWM'; display: block; width: 100%; height: 100%; font-size: 3.38vw; line-height: 10.41vw; color: #4c5b68; border: 1px solid #3b6dad; background: #b8d3ea; }
+    .f03 .aircheck_r .result_tab_w ul li a.active { color: #fff; background: #3b6dad; }
+
+    .f03 .aircheck_r.type2 .result_tab_w { display: none; }
+
+
+    .f03 .aircheck_result .result_pd_img { top: 35.15vw; }
+    .f03 .aircheck_result .result_pd_img .pd_img_area { width: 47.39vw; height: 47.39vw; }
+    .f03 .aircheck_result .result_pd_img .pd_img_area p { font-size: 3.125vw; bottom: -6.51vw; white-space: nowrap; }
+    .f03 .aircheck_result .result_pd_img .result_pd_btn { width: 33.2vw; height: 9.11vw; font-size: 3.38vw; line-height: 9.11vw; margin-top: 0; position: absolute; bottom: -23.17vw; left: 30.72vw; background: rgba(255,255,255,0.1) url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-btn-bg-m.png') no-repeat 100% 100%; background-size: 100% 100%; }
+    .ac_wrap.pc .f03 .aircheck_result .result_pd_img .result_pd_btn { bottom: -21vw; }
+    .f03 .aircheck_result .result_pd_img .result_pd_btn.hover { background: #003a66 url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-btn-bg-2-m.png') no-repeat 100% 100%; background-size: 100% 100%; color: #fff; } 
+
+
+    .f03 .aircheck_result .result_pd_spec_w { width: 50%; padding-top: 37.89vw; }
+    .f03 .aircheck_result .result_pd_spec_w .result_pd_spec { font-size: 2.86vw; line-height: 5.46vw; width: 100%; letter-spacing: -0.8px; }
+
+
+    .f03 .aircheck_result.one_result .result_pd_img { margin-left: -47.39vw; }
+
+    .f03 .aircheck_result.one_result .result_pd_spec_w { margin-left: 50%; }
+    .f03 .aircheck_result.one_result .result_pd_spec_w .result_pd_spec.single_spec { width: 24.08vw; }
+    .f03 .aircheck_result.one_result .result_pd_spec_w .spec_title ul li { padding-left: 2.86vw; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-spec-bg-2-m.png') no-repeat bottom center; background-size: 100% 2px; }
+
+    .f03 .aircheck_result_w .cs_wrap { bottom: 5.2vw; display: none !important; }
+    .ac_wrap.pc .f03 .aircheck_result_w .cs_wrap { bottom: 1.2vw; }
+
+    .ac_wrap.pc .f03 .aircheck_next, .ac_wrap.pc .f03 .aircheck_finish { bottom: 5.41vw; }
+
+    .f03 .aircheck_result_notice { bottom: 4.16vw; width: 100%; left: 0; margin-left: 0; font-size: 3.125vw; line-height: 4.94vw; }
+    .ac_wrap.pc .f03 .aircheck_result_notice { bottom: 3.16vw; }
+    .f03 .aircheck_result_notice p:nth-child(2) { margin-top: 1.04vw; }
+
+    .f03 .aircheck_r.type2 .aircheck_result_notice { width: 100%; margin-left: 0; text-align: center; }
+    .f03 .aircheck_r.type2 .aircheck_result_notice p { padding-left: 0;}
+    .f03 .aircheck_r.type2 .aircheck_result_notice p:first-child { margin-bottom: 0; display: inline-block; }
+    .f03 .aircheck_r.type2 .aircheck_result_notice p .notice_mark { position: static; }
+
+
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_txt::after { min-height: 1px; height: 0.26vw; margin-top: 1px; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f00_underline-m.png') repeat-x 0 100%; background-size: auto 100%; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup { width: 48.82vw; height: 23.3vw; margin-left: -31.25vw; padding: 5.98vw 0.91vw 0 0; background: url('./../is/image/samsung/sec-html-feature-air-cleaners-experience-f03-08-popup-bg-m.png') no-repeat 100% 100%; background-size: 100% 100%; margin-bottom: -1.82vw; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_txt { font-size: 3.125vw; line-height: 4.68vw; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_close { top: 1.3vw; right: 4.16vw; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_close img { width: 3.9vw; margin: 0; }
+
+
+    .f_banner { margin-top: 2.6vw; }
+    .f_banner .txt { width: 100%; text-align: center; padding: 9.63vw 0 0; height: auto; }
+    .f_banner .txt .valign, 
+    .f_banner .txt .middle { display: block; height: auto; }
+    .f_banner .txt .top_txt { font-size: 3.38vw; }
+    .f_banner .txt .mid_txt { font-size: 9.63vw; margin-top: 2.6vw; }
+    .f_banner .txt .bot_txt { font-family: 'SECGCWM'; font-size: 3.125vw; line-height: 4.16vw; margin-top: 1.82vw; }
+    .f_banner .txt .banner_btn { display: inline-block; width: 23.17vw; height: 8.07vw; font-size: 2.6vw; line-height: 8.07vw; margin-top: 2.86vw; }
+
+}
+
+@media (max-width:670px){
+
+    .ac_wrap.pc .f03 .aircheck_result_notice { bottom: 2.16vw; }
+
+}
+
+@media (max-width:500px){
+
+    .ac_wrap .cs_wrap a, .ac_wrap .cs_wrap span { width: 8px; height: 8px;  }
+    .ac_wrap .cs_count { font-size: 20px; line-height: 21px; margin-top: 0; }
+    .f03 .aircheck_cs .cs_wrap a, .f03 .aircheck_cs .cs_wrap span { width: 8px; height: 8px; vertical-align: top; }
+    .f03 .cs_count { font-size: 18px; vertical-align: top; margin-top: -2px; }
+
+    .ac_wrap.pc .f03 .aircheck04 .aircheck_list .aircheck_list_caption { bottom: 17.95vw; }
+
+}
+
+
+@media (max-width:480px){
+
+    .f03 .aircheck01 .aircheck_list .caption_click_popup td { padding: 7px 0; }
+
+}
+
+
+@media (max-width:430px){
+
+    .ac_wrap.pc .f03 .aircheck_result .result_pd_img .result_pd_btn { bottom: -20vw; }
+
+}
+
+@media (max-width:380px){ 
+
+
+    .ac_wrap.pc .f03 .aircheck04 .aircheck_list .aircheck_list_caption { bottom: 15.95vw; }
+    
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt { margin-left: -0.81vw; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt { margin-left: -52.26vw; }
+
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt { margin-left: -0.81vw; }
+
+    .f02 .slider_wrap .slider .slider_el02 .txt .feature-notice { padding: 0 2.6vw }
+    .f02 .slider_wrap .slider .slider_el02 .txt .feature-notice br { display: none; }
+
+    .ac_wrap.pc .f03 .aircheck_result_notice { bottom: 1.16vw; } 
+
+}
+
+
+
+
+
+@media (max-width:320px){
+
+    .ac_wrap .txt { padding: 0 8px; }
+    .ac_wrap .txt .feature-title { font-size: 21px; line-height: 26px; }
+    .ac_wrap .txt .feature-desc { font-size: 10px; line-height: 16px; margin-top: 9px; }
+    .ac_wrap .txt .feature-notice .notice { font-size: 10px; line-height: 16px; margin-top: 2px; }
+
+    .ac_wrap .cs_wrap { margin-right: 5px; }
+    .ac_wrap .cs_wrap a, .ac_wrap .cs_wrap span { margin-right: 2px; }
+    .ac_wrap .replay_btn { width: 55px; height: 55px; right: 12px; top: 12px; font-size: 10px; }
+
+
+    .f01 .txt { top: 159px; padding: 0 8px; }
+    .f01 .txt .top_txt { font-size: 29px; line-height: 35px; }
+    .f01 .txt .bottom_txt { font-size: 11px; line-height: 17px; margin-top: 26px; }
+    .f01 .txt .start_btn { width: 168px; height: 44px; font-size: 16px; line-height: 44px; margin-top: 35px; }
+    .f01 .ver_line { height: 13px; margin-left: -1px; margin-top: 48px; }
+
+    .f01 .airtest_txt { top: 160px; }
+    .f01 .airtest_txt .airtest_num { font-size: 13px; }
+    .f01 .airtest_txt .airtest_quest { font-size: 25px; line-height: 33px; margin-top: 17px; }
+    .f01 .airtest06 .airtest_txt .airtest_quest { font-size: 25px; }
+
+    .f01 .airtest_select .select_element { width: 121px; height: 121px; margin-top: 23px; }
+    .f01 .airtest_select .select_o { margin-left: -133px; }
+    .f01 .airtest_select .select_x { margin-left: 11px; }
+
+    .f01 .airtest_cs { left: 12px; top: 36px; }
+    .f01 .airtest_title { top: 109px; font-size: 11px; }
+
+
+    .f01 .airtest_r .txt { top: 73px; }
+    .f01 .airtest_r .txt .feature-title { font-size: 27px; line-height: 33px; margin-top: 29px; }
+    .f01 .airtest_r .txt .feature-desc { font-size: 12px; line-height: 18px; margin-top: 8px; }
+    .f01 .airtest_r .txt .feature-notice { font-size: 10px; line-height: 16px; }
+    .f01 .airtest_r .airtest_r_cm_btn { width: 280px; height: 44px; font-size: 16px; line-height: 44px; margin-top: 34px; }
+    .f01 .airtest_r .airtest_r_btn02 { margin-top: 13px; }
+    .f01 .airtest_r .txt .txt_ending02 { margin-top: -9px; }
+    .f01 .airtest_r .txt .txt_ending04 { padding-top: 17px; }
+
+
+    .f02 { margin: 8px 0; }
+    .f02 .txt { top: 41px; }
+    .f02 .txt .feature-desc { font-size: 12px; line-height: 18px; }
+    .f02 .txt .feature-top-title { font-size: 10px; margin-bottom: 13px; }
+    .f02 .txt .feature-notice .notice { font-size: 10px; line-height: 16px; margin-top: 17px; }
+    .f02 .slider_wrap .slider .slider_el .guide_ico { width: 137px; height: 29px; font-size: 11px; line-height: 29px; margin-top: -91px; margin-left: -68px; }
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap { top: 235px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico { width: 86px; padding: 0 4px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico01 img { width: 31px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico02 img { width: 37px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico03 img { width: 35px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico04 img { width: 35px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico05 img { width: 33px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title { font-size: 12px; margin-top: 10px; }
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_txt::after { height: 1px; margin-top: 1px; }
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup { width: 305px; height: 131px; margin-left: -62px; padding: 19px 20px 0 18px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup img { width: 107px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt { top: 13px; font-size: 10px; line-height: 15px; margin-top: 4px; margin-left: -3px; padding-right: 13px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt { font-size: 10px; line-height: 12px; top: 68px; margin-left: -167px; } 
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .notice_txt p { padding-left: 5px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .top_txt { font-size: 12px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_txt .bottom_txt { margin-top: 14px; padding-left: 7px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_close { top: 9px; right: 12px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_title .caption_popup .popup_close img { width: 12px; }
+
+
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico .ico_desc { font-size: 10px; line-height: 15px; margin-top: 4px; }
+    .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico04, .f02 .slider_wrap .slider .slider_el01 .ico_wrap .ico05 { width: 100px; margin-top: 32px; }
+
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_txt::after { height: 1px; margin-top: 1px; }
+
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup { width: 193px; height: 169px; margin-left: -135px; padding: 28px 20px 0 18px; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup img { width: 107px; margin-top: 16px; margin-left: 23px; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt { }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .popup_tt { font-size: 11px; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .notice_txt { font-size: 10px; line-height: 12px; top: 122px; margin-left: -8px; } 
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .notice_txt p { padding-left: 5px; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .top_txt { font-size: 12px; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_txt .bottom_txt { margin-top: 14px; padding-left: 7px; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_close { top: 14px; right: 13px; }
+    .f02 .slider_wrap .slider .slider_el02 .tool_tip_w .caption_popup .popup_close img { width: 12px; }
+
+
+    .f02 .slider_wrap .slider .slider_el02 .txt .feature-notice { padding: 0 8px; }
+
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_txt::after { height: 1px; margin-top: 1px; }
+
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup { width: 204px; height: 132px; margin-left: -120px; padding: 23px 0 0 0; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt { margin-top: 0; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .top_txt { font-size: 11px; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .mid_txt { font-size: 10px; margin-top: 12px; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt { font-size: 10px; margin-top: 18px;  }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_txt .bottom_txt p { width: 119px; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_close { top: 14px; right: 13px; }
+    .f02 .slider_wrap .slider .slider_el03 .tool_tip_w .caption_popup .popup_close img { width: 12px; }
+
+    .f02 .slider_wrap .slider .slider_el06 .guide_ico_btn { width: 175px; height: 29px; font-size: 11px; line-height: 29px; margin-top: -35px; margin-left: -88px; }
+    .f02 .slider_wrap .slider .slider_el06 .guide_ico_btn .slider_el06_right { width: 20px; height: 34px; margin-top: -17px; right: -22px; }
+
+    .f02 .slider_wrap .slider_control .arrow_btn a { width: 20px; height: 34px; margin-top: 40px; }
+    .f02 .slider_wrap .slider_control .arrow_btn a.left { left: 6px; }
+    .f02 .slider_wrap .slider_control .arrow_btn a.right { right: 6px; }
+
+    .f02 .slider_wrap .slider_control .cs_wrap { bottom: 14px; }
+
+    .f02 .replay_btn { top: 4px; }
+
+
+    .f03 .txt { top: 31px; }
+
+    .f03 .aircheck_list { padding-top: 128px; }
+    .f03 .aircheck_list .aircheck_list_title { font-size: 17px; line-height: 23px; top: 106px; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap { padding-top: 183px; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn { width: 94px; height: 94px; margin: 0 2px; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn { width: 136px; height: 136px; margin: 0 10px; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt { font-size: 10px; line-height: 15px; padding: 0 4px;}
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt.use_small_txt { font-size: 10px; line-height: 15px; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt.use_small_txt .top_txt { font-size: 25px; margin-bottom: 15px; }
+    .f03 .aircheck_box .aircheck_list .aircheck_btn .btn_txt .btn_txt_notice { font-size: 10px; line-height: 12px; margin-top: 5px; }
+
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption { bottom: 77px; margin-left: -28px; }
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .aircheck_lisk_caption_in > a { font-size: 10px; }
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup { margin-bottom: -2px; margin-left: -72px; width: 150px; height: 82px; }
+
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup .popup_close { top: 9px; right: 13px; }
+    .f03 .aircheck_box .aircheck_list .aircheck_list_caption .caption_popup .popup_close img { width: 13px; }
+
+    .f03 .aircheck01 .aircheck_list .aircheck_btn_wrap { padding-top: 172px; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt { top: 105px; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt .top_txt { font-size: 12px; line-height: 15px; }
+    .f03 .aircheck01 .aircheck_list .aircheck_btn .btn_txt .bottom_txt { font-size: 11px; line-height: 15px; }
+
+    .f03 .aircheck01 .aircheck_list .aircheck_list_caption { bottom: 33px; margin: 0; }
+
+
+    .f03 .aircheck01 .aircheck_list .caption_click_popup { width: 199px; margin-left: -100px; margin-top: -108px; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_inner { padding: 10px 12px 12px 12px; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup strong { font-size: 13px; margin-bottom: 10px; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup table { font-size: 10px; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup th { padding: 5px 0; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup th.popup_tb_blue { font-size: 12px; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup td { padding: 4px 0; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_note { font-size: 10px; margin-top: 8px; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close { right: 10px; top: 10px; }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close a { }
+    .f03 .aircheck01 .aircheck_list .caption_click_popup .popup_close a img { width: 8px; height: 8px; }
+
+
+
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption { bottom: 73px; }
+    .ac_wrap.pc .f03 .aircheck04 .aircheck_list .aircheck_list_caption { bottom: 65px; }
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption .caption_popup { font-size: 10px; line-height: 15px; padding: 16px 8px 0 12px; margin-bottom: -1px; }
+
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_999 { margin-left: -129px; }
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_9 { margin-left: 35px; }
+
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_999 .caption_popup { width: 191px; height: 157px; margin-left: -73px; }
+    .f03 .aircheck04 .aircheck_list .aircheck_list_caption.caption_99_9 .caption_popup { width: 207px; height: 157px; margin-left: -128px; }
+
+    .f03 .aircheck05 .aircheck_list .aircheck_btn .btn_ico { margin-bottom: 4px; }
+    .f03 .aircheck05 .aircheck_list .aircheck_btn01 .btn_ico { width: 35px; }
+    .f03 .aircheck05 .aircheck_list .aircheck_btn02 .btn_ico { width: 16px; }
+
+    .f03 .aircheck07 .aircheck_list .aircheck_btn .btn_txt { font-size: 10px; line-height: 11px; margin-top: -4px; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn .btn_ico { margin-bottom: 0; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn01 .btn_ico { width: 35px; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn02 .btn_ico { width: 29px; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn03 .btn_ico { width: 32px; }
+
+    .f03 .aircheck07 .aircheck_list .aircheck_btn_wrap.two_set .btn_ico { margin-bottom: 18px; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn:nth-child(2) { margin-left: 0; margin-right: 10px; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn:nth-child(3) { margin-left: 10px; margin-right: 0; }
+    .f03 .aircheck07 .aircheck_list .aircheck_btn_wrap.two_set .aircheck_btn .btn_txt { font-size: 10px; line-height: 15px; }
+
+    .f03 .aircheck_next, .f03 .aircheck_finish { bottom: 33px; margin-lefT: -53px; width: 106px; height: 31px; font-size: 11px; line-height: 31px; }
+    .ac_wrap.pc .f03 .aircheck_next, .ac_wrap.pc .f03 .aircheck_finish { bottom: 33px; }
+    .f03 .aircheck_cs { left: 12px; top: 166px; }
+    .f03 .aircheck_cs .cs_wrap { margin-right: 3px; }
+    .f03 .aircheck_cs .cs_wrap a,.f03 .aircheck_cs .cs_wrap span { margin-right: 2px; }
+    .f03 .replay_btn { top: 142px; }
+
+    .f03 .aircheck_r .aircheck_list_title { top: 28px; }
+
+    .f03 .aircheck_r .result_tab_w { top: 73px; }
+    .f03 .aircheck_r .result_tab_w ul li { height: 33px; }
+    .f03 .aircheck_r .result_tab_w ul li a { font-size: 11px; line-height: 33px; }
+
+    .f03 .aircheck_result .result_pd_img { top: 113px; }
+    .f03 .aircheck_result .result_pd_img .pd_img_area { width: 152px; height: 152px; }
+    .f03 .aircheck_result .result_pd_img .pd_img_area p { font-size: 10px; bottom: -21px; }
+    .f03 .aircheck_result .result_pd_img .result_pd_btn { width: 106px; height: 29px; font-size: 11px; line-height: 29px; bottom: -78px; left: 98px; }
+    .ac_wrap.pc .f03 .aircheck_result .result_pd_img .result_pd_btn { bottom: -70px; }
+
+
+    .f03 .aircheck_result .result_pd_spec_w { padding-top: 121px; }
+    .f03 .aircheck_result .result_pd_spec_w .result_pd_spec { font-size: 10px; line-height: 17px; }
+
+
+    .f03 .aircheck_result.one_result .result_pd_img { margin-left: -152px; }
+
+    .f03 .aircheck_result.one_result .result_pd_spec_w .result_pd_spec.single_spec { width: 77px; }
+    .f03 .aircheck_result.one_result .result_pd_spec_w .spec_title ul li { padding-left: 9px; }
+
+    .f03 .aircheck_result_w .cs_wrap { bottom: 17px; }
+
+    .ac_wrap.pc .f03 .aircheck_result_w .cs_wrap { bottom: 4px; }
+
+    .f03 .aircheck_result_notice { bottom: 13px; font-size: 10px; line-height: 16px; }
+    .ac_wrap.pc .f03 .aircheck_result_notice { bottom: 13px; }
+    .f03 .aircheck_result_notice p:nth-child(2) { margin-top: 3px; }
+
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup { width: 156px; height: 75px; margin-left: -100px; padding: 19px 3px 0 0; margin-bottom: -6px; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_txt { font-size: 10px; line-height: 15px; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_close { top: 4px; right: 13px; }
+    .f03 .aircheck_result .result_pd_spec .tool_tip_w.divide_combine .caption_popup .popup_close img { width: 12px; }
+
+
+    .f_banner { margin-top: 8px; }
+    .f_banner .txt { padding: 31px 0 0; }
+    .f_banner .txt .top_txt { font-size: 11px; }
+    .f_banner .txt .mid_txt { font-size: 31px; margin-top: 8px; }
+    .f_banner .txt .bot_txt { font-size: 10px; line-height: 13px; margin-top: 6px; }
+    .f_banner .txt .banner_btn { width: 74px; height: 26px; font-size: 10px; line-height: 26px; margin: 9px auto 0 auto; }
+
+}

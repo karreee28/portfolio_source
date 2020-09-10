@@ -1,0 +1,2232 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=11;IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Hanwha Q CELLS</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style_m_vw.css"> <!--w_vw/임시분리-->
+  <link rel="stylesheet" type="text/css" href="css/style_320.css"> <!--320/임시분리-->
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+
+	<!--HANWHA Tagging Start-->
+	<!-- <script src="//assets.adobedtm.com/7d078a18b93e0152924c7d79b851ed5bdab0c58f/satelliteLib-a65eb08a37c65e64e7f5923e6aa82c6a5641b154.js"></script>
+	<script type="text/javascript">
+        var dtmDataLayer = {
+            // pageName 정리
+            // 메인의 경우에는 home으로 저장
+            // 메인이 아닌 경우에는 home을 제외하고 1차 메뉴명 부터 저장
+            'pagename': 'Solar RnD Home(en)',
+            'category1depth' : 'Solar RnD Home(en)',
+            'category2depth' : '',
+            'category3depth' : '',
+            'language': 'English',
+            'mediacontent' : '',
+            //'brochurename' : 'Hanwha Brochure',
+            'searchkeyword' : 'null'
+        };
+	</script> -->
+	<!--HANWHA Tagging End-->
+ </head>
+ <body>
+	<audio src="sound/space_ambient.mp3" loop="" preload="auto" id="bgm"></audio>
+	<div class="header_wrap">
+		<div class="header_bg">
+			<img src="images/transparent.png" data-media-web="images/panel_field_blur_bg.jpg" data-media-mobile="images/panel_field_blur_bg_m.jpg" class="responsiveImg" alt="Solar energy R&D center image">
+		</div>
+		<div class="header_inner">
+			<div class="logo">
+				<a href="#">
+					<div class="logo_d">
+						<img src="images/transparent.png" data-media-web="images/logo.png" data-media-mobile="images/logo_m.png" class="responsiveImg" alt="Hanwha black text logo"/>
+						<img src="images/transparent.png" data-media-web="images/logo.png" data-media-mobile="images/logo_m_b.png" class="black responsiveImg" alt="Hanwha black text logo"/>
+					</div>
+					<div class="logo_h">
+						<img src="images/transparent.png" data-media-web="images/logo_h_b.png" data-media-mobile="images/logo_h_b.png" class="responsiveImg"  alt="Hanwha black text logo"/>
+						<img src="images/transparent.png" data-media-web="images/logo_h_b.png" data-media-mobile="images/logo_h_b.png" class="black responsiveImg" alt="Hanwha black text logo"/>
+					</div>
+					<div class="logo_h_w">
+						<img src="images/transparent.png" data-media-web="images/logo_h.png" data-media-mobile="images/logo_h.png" class="responsiveImg" alt="Hanwha white text logo" />
+						<img src="images/transparent.png" data-media-web="images/logo_h.png" data-media-mobile="images/logo_h.png" class="black responsiveImg" alt="Hanwha white text logo"/>
+					</div>
+				</a>
+			</div>
+			<div class="mobile_btn">
+				<a href="#">
+					<div class="m_btn_d">
+						<img src="images/header_m_btn.png" alt="Mobile manu Tab button"/>
+						<img src="images/header_m_btn_b.png" class="black" alt="Mobile manu Tab button"/>
+					</div>
+					<div class="m_btn_h">
+						<img src="images/header_m_btn_b.png" alt="Mobile manu Tab button"/>
+						<img src="images/header_m_btn_b.png" class="black" alt="Mobile manu Tab button"/>
+					</div>
+				</a>
+			</div>
+			<div class="sns_wrap">
+				<div class="sns_inner">
+					<a href="#" class="lan">
+						<img src="images/header_lan.png" class="default" alt="Language Tab button"/>
+						<img src="images/header_lan_over.png"  class="over" alt="Language Tab button"/>
+						<p>Language</p></a>
+					<a class="nr" href="#">
+						<img src="images/header_nr.png" class="default" alt="Hanwha newroom Tab button"/>
+						<img src="images/header_nr_over.png" class="over" alt="Hanwha newroom Tab button"/>
+						<p>Hanwha Newsroom</p></a>
+					<span class="line"></span>
+					<a href="#" class="speaker">
+						<div class="speaker_d">
+							<img  src="images/transparent.png" data-media-web="images/header_sp.png" data-media-mobile="images/header_menu_speaker_m.png" class="default responsiveImg" alt="Page sound off button"/>
+							<img src="images/header_menu_speaker_m_b.png" data-media-web="images/header_menu_speaker_m_b.png" data-media-mobile="images/header_menu_speaker_m_b.png" class="black responsiveImg" alt="Page sound off button"/>
+							<img src="images/header_sp_over.png" data-media-web="images/header_sp_over.png" data-media-mobile="images/header_sp_over.png" class="over responsiveImg" alt="Page sound off button"/>
+							<img src="images/transparent.png" data-media-web="images/header_sp_mute.png" data-media-mobile="images/header_menu_speaker_mute_m.png" class="mute_obj responsiveImg" alt="Page sound on button"/>
+						</div>
+						<div class="speaker_h">
+							<img  src="images/transparent.png" data-media-web="images/header_sp_h.png" data-media-mobile="images/header_sp_h.png" class="default responsiveImg" alt="Page sound off button"/>
+							<img src="images/transparent.png" data-media-web="images/header_sp_h.png" data-media-mobile="images/header_sp_h.png" class="black responsiveImg" alt="Page sound off button"/>
+							<img src="images/header_sp_over.png" data-media-web="images/header_sp_h.png" data-media-mobile="images/header_sp_h.png" class="over responsiveImg" alt="Page sound off button"/>
+							<img src="images/transparent.png" data-media-web="images/header_sp_mute_h.png" data-media-mobile="images/header_sp_mute_h.png" class="mute_obj responsiveImg" alt="Page sound on button"/>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="language_popup">
+				<div class="popup_inner">
+					<div class="popup_txt">
+						<div class="popup_title">Choose Your Language</div>
+						<div class="popup_desc">Selecting a language <br/>Changes content on Hanwha.com.</div>
+					</div>
+					<div class="link">
+						<ul>
+							<li><a href="./../zh/index.html" onclick="dtmDataLayer.internallink='Language /zh/'; _satellite.track('internallink');">简体中文</a></li>
+							<li><a href="./../de/index.html" onclick="dtmDataLayer.internallink='Language /de/'; _satellite.track('internallink');">Deutsch</a></li>
+							<li><a href="./../es/index.html" onclick="dtmDataLayer.internallink='Language /es/'; _satellite.track('internallink');">Español</a></li>
+							<li><a href="./../ja/index.html" onclick="dtmDataLayer.internallink='Language /ja/'; _satellite.track('internallink');">日本語</a></li>
+						</ul>
+					</div>
+					<div class="popup_close">
+						<a href="#"><img src="images/header_popup_close.png" alt="Language Tab Close button"/></a>
+					</div>
+					<div class="popup_top_tri">
+						<img src="images/header_popup_triangle.png" alt="arrow icon"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mobile_menu_wrap">
+			<div class="inner">
+				<div class="menu_top">
+					<div class="inner">
+						<div class="menu_close_btn">
+							<a href="#">
+								<img src="images/header_menu_close_m.png" alt="Mobile manu Close button"/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="menu_b">
+					<div class="inner">
+						<div class="menu_middle">
+							<div class="h_valign">
+								<div class="h_middle">
+									<ul>
+										<li><a href="#">Energy Innovation</a></li>
+										<li><a href="#">Technology Leadership</a></li>
+										<li><a href="#">Q.ANTUM technology</a></li>
+										<li><a href="#">Performance & Reliability</a></li>
+										<li><a href="#">Global Footprint</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="menu_bottom">
+							<div class="hr_btn">
+								<a href="#">Hanwha Newsroom</a>
+							</div>
+							<div class="lg_btn">
+								<ul>
+									<li><a href="./../zh/index.html" onclick="dtmDataLayer.internallink='Language /zh/'; _satellite.track('internallink');">简体中文</a></li>
+									<li><a href="./../de/index.html" onclick="dtmDataLayer.internallink='Language /de/'; _satellite.track('internallink');">Deutsch</a></li>
+									<li><a href="./../es/index.html" onclick="dtmDataLayer.internallink='Language /es/'; _satellite.track('internallink');">Español</a></li>
+									<li><a href="./../ja/index.html" onclick="dtmDataLayer.internallink='Language /ja/'; _satellite.track('internallink');">日本語</a></li>
+								</ul>
+							</div>
+							<div class="cr_area">Copyright © Hanwha Group. All rights reserved</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrap_w" id="wrap_m">
+		<div class="wrap" id="wrap">
+			<div class="loading_wrap">
+				<div class="loading_inner">
+					<div class="loading_mov">
+						<img src="images/transparent.png" data-media-web="images/loading_img2.jpg" data-media-mobile="images/loading_img_m.jpg" class="vCover responsiveImg" alt="Page Loading video"/>
+					</div>
+					<div class="loading_txt">Solar Energy : <br class="vw_only"/>A Reality for all</div>
+					<div class="loading_bar">
+						<div class="loading_progress"></div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="bg_cont">
+					<div class="bg space" id="spaceBg">
+						<img src="images/transparent.png" data-media-web="images/bg.jpg" data-media-mobile="images/bg_m.jpg" class="responsiveImg" alt="Galaxy background image"/>
+						<img src="images/bg_02.png" alt="Galaxy star image"/>
+						<img src="images/bg_03.png" alt="Galaxy star image"/>
+						<img src="images/bg_04.png" alt="Galaxy star image"/>
+						<img src="images/bg_05.png" alt="Galaxy star image"/>
+					</div>
+					<div class="bg earth" id="earthBg">
+						<div class="earth_glow"><img src="images/earth_glow.png" alt="Earth line image"></div>
+					</div>
+					<div class="bg panel_field_far">
+						<img src="images/transparent.png" data-media-web="images/panel_field_far_bg.jpg" data-media-mobile="images/panel_field_far_bg_m.jpg" class="responsiveImg" alt="Solar energy R&D center image">
+						<div class="panel_field"><img src="images/transparent.png" data-media-web="images/panel_field_bg.jpg" data-media-mobile="images/panel_field_bg_m.jpg" class="responsiveImg" alt="Solar energy R&D center image"></div>
+						<div class="panel_field_blur"><img src="images/transparent.png" data-media-web="images/panel_field_blur_bg.jpg" data-media-mobile="images/panel_field_blur_bg_m.jpg" class="responsiveImg" alt="Solar energy R&D center image"></div>
+					</div>
+					<div class="bg panel_field_wrap">
+						
+					</div>
+					<div class="bg panel_cell">
+						<img src="images/panel_cell_bg.jpg" alt="Solar Cell background image">
+					</div>
+					<div class="bg lab">
+						<img src="images/transparent.png" data-media-web="images/lab_bg.jpg" data-media-mobile="images/lab_bg_m.jpg" class="vCover responsiveImg" alt="Solar energy R&D center video">
+					</div>
+					<div class="bg interview">
+						<img src="images/transparent.png" data-media-web="images/interview_bg.png" data-media-mobile="images/interview_bg_m.jpg" class="vCover responsiveImg" alt="DR. KARL interview video">
+					</div>
+					<div class="bg skypanel_wrap">
+						<div class="skypanel">
+							<img src="images/transparent.png" data-media-web="images/sky_full.jpg" data-media-mobile="images/sky_full_m.jpg" class="responsiveImg" alt="performance&reliabilty background image">
+						</div>
+					</div>
+					<div class="bg dot_map">
+						<img src="images/transparent.png" data-media-web="images/dot_map_bg.jpg" data-media-mobile="images/dot_map_bg_m.jpg" class="responsiveImg" alt="Global footprint background image">
+					</div>
+					<div class="bg forest">
+						<img src="images/forest_bg.jpg" class="vCover" alt="page ending video">
+						<div class="m_bg_img">
+							<img src="images/f5_3_bg1_m.jpg" alt="page ending video 1">
+							<img src="images/f5_3_bg2_m.jpg" alt="page ending video 2">
+							<img src="images/f5_3_bg3_m.jpg" alt="page ending video 3">
+						</div>
+					</div>
+					<div class="bg interview2">
+						<img src="images/transparent.png" data-media-web="images/Interview_Dr.Muller.jpg" data-media-mobile="images/Interview_Dr.Muller_m.jpg" class="vCover responsiveImg" alt="DR. JORG MULLER interview"/>
+					</div>
+				</div>
+				<div class="tile_cont">	
+					<div class="tile_cont_inner">
+
+					</div>
+				</div>
+				<div class="tile_cont_half">
+					<div class="tile_cont_bg"></div>
+					<div class="tile_cont_inner">
+
+					</div>
+				</div>
+				<div class="tile_cont_quad">
+					<div class="tile_cont_bg"></div>
+					<div class="tile_cont_inner">
+						<div class="inner">
+						</div>
+					</div>
+				</div>
+				<div class="inter_cont">
+					<div class="inter sun">
+						<img src="images/sun.png" class="flame" alt="Sun image">
+					</div>
+					
+					<div class="inter earth">
+						<div class="type2">
+							<img src="images/transparent.png" data-media-web="images/earth_country.png" data-media-mobile="images/earth_country_m.png" class="earth_txt_d responsiveImg" alt="R&D network 4 countries earth image">
+							<img src="images/transparent.png" data-media-web="images/earth_country_h.png" data-media-mobile="images/earth_country_h.png" class="earth_txt_h responsiveImg" alt="R&D network 4 countries earth image">
+						</div>
+						<img src="images/transparent.png" data-media-web="images/earth_fin_t2.png" data-media-mobile="images/earth_fin_t2_m.png" class="type1 responsiveImg" alt="earth image">
+					</div>
+					<div class="inter movie">
+						<div class="earth_movie">
+							<div class="earth_in">
+								<img src="images/earth_in_cover.jpg" class="vCover" alt="earth image">
+							</div>
+							<div class="earth_out">
+								<img src="images/earth_out_cover.jpg" class="vCover" alt="Solar energy R&D center image">
+							</div>
+						</div>
+					</div>
+					<div class="inter panel">
+						<div class="panel_obj panel_obj1">
+							<img src="images/transparent.png" data-media-web="images/panel_obj1.png" data-media-mobile="images/panel_obj1_m.png" class="responsiveImg c_panel" alt="Solar cell Silicon image">
+							<img class="responsiveImg motion" 
+								 alt="Solar cell Silicon image"
+								 src="images/transparent.png" 
+								 data-media-mobile="images/f3_2_obj1_img1_1_m.png" 
+								 data-media-web="images/f3_2_obj1_img1_1.png" />
+						</div>
+						<div class="panel_obj panel_obj2">
+							<img src="images/transparent.png" data-media-web="images/panel_obj1.png" data-media-mobile="images/panel_obj1_m.png" class="responsiveImg c_panel" alt="Solar cell Silicon image">
+							<img class="responsiveImg motion" 
+								 alt="Solar cell Silicon image" 
+								 src="images/transparent.png" 
+								 data-media-mobile="images/f3_2_obj2_img1_1_m.png" 
+								 data-media-web="images/f3_2_obj2_img1_1.png" />
+						</div>
+					</div>
+					<div class="inter panel_half_sf">
+						<img src="images/half_safari.jpg" alt="Solar Cell background image">
+					</div>
+					<div class="inter panel2"><img src="images/panel_obj2.png" alt="Solar cell image"></div>
+					<div class="inter map_dot_square"></div>
+					<div class="inter circle"><img src="images/circle.png" alt="light image"></div>
+					<div class="inter light"><img src="images/scale_sun.png" alt="light image"></div>
+					<div class="inter panel_full">
+						<div class="panel_obj">
+							<img src="images/sunPannel.png" alt="Solar cell light image">
+						</div>
+						<div class="panel_obj panel_light">
+							<img src="images/sunPannel_light.png" alt="Solar cell image">
+						</div>
+					</div>
+					<div class="inter sky">
+						<img src="images/transparent.png" data-media-web="images/sky_panel_bg1.jpg" data-media-mobile="images/sky_panel_bg1_m.jpg" class="responsiveImg" alt="Solar energy R&D center and sky image">
+					</div>
+				</div>
+				<div class="graph_obj obj1">
+					<div class="obj_inner">
+						<div class="obj_graph_w">
+							<div class="obj_graph">
+								<div class="line_wrap line_wrap1">
+									<div class="line_inner">
+										<div class="line line1"><span></span></div>
+										<div class="line line2"><span></span></div>
+										<div class="val val1">
+											<div class="dot"></div>
+											<div class="num">328/Twh</div>
+											<div class="val_txt">by 2017</div>
+										</div>
+										<div class="val val2">
+											<div class="dot"></div>
+											<div class="num">953/Twh</div>
+											<div class="val_txt">by 2025</div>
+										</div>
+									</div>
+								</div>
+								<div class="line line3"><span></span></div>
+								<div class="val val3">
+									<div class="dot"></div>
+									<div class="num">27<span>%</span></div>
+									<div class="val_txt">of global electricity <br/>by 2050</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="condition_w">
+					<div class="inner">
+						<div class="condition_top"></div>
+						<div class="obj_wrap">
+							<div class="obj obj1">
+								<img class="responsiveImg" 
+									 alt="strong wind image" 
+									 src="images/transparent.png" 
+									 data-media-mobile="images/f3_12_obj1_m.jpg" 
+									 data-media-web="images/f3_12_obj1.jpg"/>
+								<div class="ico">
+									<div class="valign">
+										<div class="middle">
+											<img class="responsiveImg" 
+												 alt="strong wind icon" 
+												 src="images/f3_12_obj1_ico_m.png" 
+												 data-media-mobile="images/f3_12_obj1_ico_m.png" 
+												 data-media-web="images/f3_12_obj1_ico.png"/>
+											<p><span class="m_valign"><span class="m_middle">STRONG <br class="vw_only"/>Wind</span></span></p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="obj obj2">
+								<img class="responsiveImg" 
+									 alt="heavy snow image" 
+									 src="images/transparent.png" 
+									 data-media-mobile="images/f3_12_obj2_m.jpg" 
+									 data-media-web="images/f3_12_obj2.jpg"/>
+								<div class="ico">
+									<div class="valign">
+										<div class="middle">
+											<img class="responsiveImg" 
+												 alt="heavy snow icon" 
+												 src="images/transparent.png" 
+												 data-media-mobile="images/f3_12_obj2_ico_m.png" 
+												 data-media-web="images/f3_12_obj2_ico.png"/>
+											<p><span class="m_valign"><span class="m_middle">Heavy <br class="vw_only"/>Snow</span></span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="obj obj3">
+								<img class="responsiveImg" 
+									 alt="salt stress image" 
+									 src="images/transparent.png" 
+									 data-media-mobile="images/f3_12_obj3_m.jpg" 
+									 data-media-web="images/f3_12_obj3.jpg"/>
+								<div class="ico">
+									<div class="valign">
+										<div class="middle">
+											<img class="responsiveImg" 
+												 alt="salt stress icon" 
+												 src="images/transparent.png" 
+												 data-media-mobile="images/f3_12_obj3_ico_m.png" 
+												 data-media-web="images/f3_12_obj3_ico.png"/>
+											<p><span class="m_valign"><span class="m_middle">Salt <br class="vw_only"/>Stress</span></span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="obj obj4">
+								<img class="responsiveImg" 
+									 alt="hot and dry image" 
+									 src="images/transparent.png" 
+									 data-media-mobile="images/f3_12_obj4_m.jpg" 
+									 data-media-web="images/f3_12_obj4.jpg"/>
+								<div class="ico">
+									<div class="valign">
+										<div class="middle">
+											<img class="responsiveImg" 
+												 alt="hot and dry icon" 
+												 src="images/transparent.png" 
+												 data-media-mobile="images/f3_12_obj4_ico_m.png" 
+												 data-media-web="images/f3_12_obj4_ico.png"/>
+											<p><span class="m_valign"><span class="m_middle">Hot <br class="vw_only"/>and Dry</span></span></p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="obj obj5">
+								<img class="responsiveImg" 
+									 alt="desert and sand image" 
+									 src="images/transparent.png" 
+									 data-media-mobile="images/f3_12_obj5_m.jpg" 
+									 data-media-web="images/f3_12_obj5.jpg"/>
+								<div class="ico">
+									<div class="valign">
+										<div class="middle">
+											<img class="responsiveImg" 
+												 alt="desert and sand icon" 
+												 src="images/transparent.png" 
+												 data-media-mobile="images/f3_12_obj5_ico_m.png" 
+												 data-media-web="images/f3_12_obj5_ico.png"/>
+											<p><span class="m_valign"><span class="m_middle">Desert <br class="vw_only"/>and Sand</span></span></p>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="obj obj6">
+								<img class="responsiveImg" 
+									 alt="high temperature and humidity image" 
+									 src="images/transparent.png" 
+									 data-media-mobile="images/f3_12_obj6_m.jpg" 
+									 data-media-web="images/f3_12_obj6.jpg"/>
+								<div class="ico">
+									<div class="valign">
+										<div class="middle">
+											<img class="responsiveImg" 
+												 alt="high temperature and humidity icon" 
+												 src="images/transparent.png" 
+												 data-media-mobile="images/f3_12_obj6_ico_m.png" 
+												 data-media-web="images/f3_12_obj6_ico.png"/>
+											<p><span class="m_valign"><span class="m_middle">High Temperature <br/>and humidity</span></span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="popup_dimmed"></div>
+				<div class="f2_4_line"></div>
+				<div class="f3_67_bg">
+					<div class="f3_6_bg">
+						<div class="top_bg"></div>
+						<div class="bottom_bg"></div>
+					</div>
+					<div class="f3_7_bg">
+						<div class="top_bg"></div>
+						<div class="bottom_bg"></div>
+					</div>
+				</div>
+				
+				<div class="feature_cont_cover">
+					<div class="feature_cont">
+						<div class="feature f1_1">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="title">
+												<div class="t_title">Unlimited, free and eco-friendly</div>
+												<div class="b_title">solar energy</div>
+												<div class="obj_wrap">
+													<div class="obj"><img src="images/f1_1_text_light.png" alt="light image"></div>
+													<div class="obj"><img src="images/f1_1_text_light.png" alt="light image"></div>
+												</div>
+											</div>
+											<div class="desc">Today, global warming has become a reality for everyone as it is making significant and harmful impact to our communities, our health and our climate. However, the world has come to realize that practical solutions can be found in eco-friendly energy sources that could dramatically reduce the pace of global warming. We can secure renewable energy sources to secure the future of mankind. Using unlimited sunlight as the main source of energy, we can generate clean electricity without negatively impacting the environment and ourselves.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f1_2">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="title">
+										<div class="valign">
+											<div class="middle">
+												<div class="t_title">THE GROWTH IN <br/>POPULARITY </div>
+												<div class="b_title">of solar energy</div>
+											</div>
+										</div>
+									</div>
+									<div class="desc use_exp">
+										<div class="valign">
+											<div class="middle">
+												<div class="mobile_txt_btn">
+													<a href="#">
+														<img class="default" alt="learn more tab button" src="images/feature_link_img_m.png" />
+														<img class="hover" alt="learn more tab button" src="images/feature_link_img_hover_m.png" />
+													</a>
+												</div>
+												<p>Current growth in the popularity of solar energy testifies to this shifting paradigm in energy innovation. According to the International Energy Association (IEA), global demand for solar energy is likely to reach 953/Twh by 2025 achieving an annual growth rate of 14.3% from the 328/Twh required in 2017. <span class="wsnr">IEA also</span> projected that solar energy could contribute 27 percent of global electricity by 2050. And due to recent technological advances, decreasing LCOE has contributed to a surge in solar energy adoption.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f2_1">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="title">Leading Energy Paradigm Shift</div>
+											<div class="desc">Hanwha has been a driver of technical advancements in line with energy innovation across the globe. <span class="wsnr">Recognizing company the potential</span> of solar energy as a renewable source, the company has dedicated itself to the <span class="wsnr">development of crystalline</span> photovoltaics technology.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f2_2">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="title">
+										<div class="valign">
+											<div class="middle">
+												Global R&D <br/>Network
+											</div>
+										</div>
+									</div>
+									<div class="desc use_exp">
+										<div class="valign">
+											<div class="middle">
+												<div class="mobile_txt_btn">
+													<a href="#">
+														<img class="default" alt="learn more tab button" src="images/feature_link_img_m.png" />
+														<img class="hover" alt="learn more tab button" src="images/feature_link_img_hover_m.png" />
+													</a>
+												</div>
+												<p>The current challenge facing the solar energy industry is delivering high performance and reliability in various real life conditions at the lowest possible cost. Approximately 400 scientists at Hanwha Q CELLS' 4 global R&D centers in Germany, Korea, China, and Malaysia are persistently examining ways to overcome this barrier and provide ever better solutions. As a result of decades-long research and development for greater technological innovation and energy efficiency, the proprietary Q.ANTUM technology debuted in 2011 setting new standards in the solar energy industry.</p>
+											</div>
+										</div>
+									</div>
+									<div class="mid_txt midText1">
+										<div class="valign">
+											<div class="middle">
+												<div class="t_txt">R&D Network</div>
+												<div class="m_txt">4</div>
+												<div class="b_txt">countries</div>									
+											</div>
+										</div>
+										
+									</div>
+									<div class="mid_txt midText2">
+										<div class="valign">
+											<div class="middle">
+												<div class="t_txt">R&D Network</div>
+												<div class="m_txt">400</div>
+												<div class="b_txt">SCIENTISTS</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f2_3">
+							<div class="feature_inner">
+
+							</div>
+						</div>
+						<div class="feature f2_4">
+							<div class="feature_inner">
+								<div class="obj_wrap">
+									<div class="obj obj1">
+										<div class="obj_inner">
+											<div class="year">2017</div>
+											<div class="year_txt">
+												<p><span>·</span>Sets new record for producing a total of 5 GW <br/>Q.ANTUM monocrystalline/ polycrystalline solar cells</p>
+											</div>
+										</div>                                
+									</div>
+									<div class="obj obj2">
+										<div class="obj_inner">
+											<div class="year">2016</div>
+											<div class="year_txt">
+												<p><span>·</span>Sets the world record for the highest polycrystalline module efficiency</p>
+											</div>
+										</div>
+									</div>
+									<div class="obj obj3">
+										<div class="obj_inner">
+											<div class="year">2011</div>
+											<div class="year_txt">
+												<p><span>·</span>Q.ANTUM sets the world record for polycrystalline solar cell efficiency</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f3_2">
+							<div class="feature_inner">
+								 <div class="obj_wrap">
+									<div class="obj obj1">
+										<div class="obj_inner">
+											<div class="panel_obj1 green_back">
+												<img class="responsiveImg" 
+													 alt="aluminium back contact image"
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_2_obj1_img3_m.png" 
+													 data-media-web="images/f3_2_obj1_img3.png" />
+											</div>
+											<div class="panel_obj2 orange_back">
+												<img class="responsiveImg" 
+													 alt="Special nano coated power reflector image"
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_2_obj1_img2_m.png" 
+													 data-media-web="images/f3_2_obj1_img2.png"/>
+											</div>
+											<div class="panel_obj3 panel">
+												<img class="responsiveImg" 
+													 alt="Solar cell Silicon image"
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_2_obj1_img1_1_m.png" 
+													 data-media-web="images/f3_2_obj1_img1_1.png" />
+											</div>
+											<div class="panel_obj4 arrow">
+												<img class="responsiveImg" 
+													 alt="Generates more electricity image" 
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_2_obj1_arrow_m.png" 
+													 data-media-web="images/f3_2_obj1_arrow.png" />
+											</div>
+											<div class="obj_txt_w">
+												<div class="obj_txt obj_txt1">
+													<div class="obj_txt_inner">
+														<p>Generates more <br class="vw_only"/>electricity</p>
+														<img class="responsiveImg" 
+															 alt="enlargement icon" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_2_txt_img1_m.png" 
+															 data-media-web="images/f3_2_txt_img1.png" />
+													</div>
+												</div>
+												<div class="obj_txt obj_txt2">
+													<div class="obj_txt_inner">
+														<p>Special nano coated <br/>power reflector</p>
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_2_txt_img2_m.png" 
+															 data-media-web="images/f3_2_txt_img2.png" />
+													</div>
+												</div>
+												<div class="obj_txt obj_txt3">
+													<div class="obj_txt_inner">
+														<p>Silicon</p>
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_2_txt_img3_m.png" 
+															 data-media-web="images/f3_2_txt_img3.png" />
+													</div>
+												</div>
+												<div class="obj_txt obj_txt4">
+													<div class="obj_txt_inner">
+														<p>Aluminium back contact</p>
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_2_txt_img4_m.png" 
+															 data-media-web="images/f3_2_txt_img4.png" />
+													</div>
+												</div>
+												<div class="obj_title">Q.ANTUM <br class="vw_only"/>Solar Cell</div>
+											</div>
+										</div>
+									</div>	
+									<div class="obj obj2">
+										<div class="obj_inner">
+											<div class="panel_obj2 green_back">
+												<img class="responsiveImg" 
+													 alt="aluminium back contact image" 
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_2_obj2_img2_m.png" 
+													 data-media-web="images/f3_2_obj2_img2.png" />
+											</div>
+											<div class="panel_obj3 panel">
+												<img class="responsiveImg" 
+													 alt="Solar cell Silicon image" 
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_2_obj2_img1_1_m.png" 
+													 data-media-web="images/f3_2_obj2_img1_1.png" />
+											</div>
+											<div class="panel_obj4 arrow">
+												<img class="responsiveImg" 
+													 alt="Generates more electricity image" 
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_2_obj2_arrow_m.png" 
+													 data-media-web="images/f3_2_obj2_arrow.png" />
+											</div>
+											<div class="obj_txt_w">
+												<div class="obj_txt obj_txt3">
+													<div class="obj_txt_inner">
+														<p>Silicon</p>
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_2_txt_img5_m.png" 
+															 data-media-web="images/f3_2_txt_img5.png" />
+													</div>
+												</div>
+												<div class="obj_txt obj_txt4">
+													<div class="obj_txt_inner">
+														<p>Aluminium back contact</p>
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_2_txt_img6_m.png" 
+															 data-media-web="images/f3_2_txt_img6.png" />
+													</div>
+												</div>
+												<div class="obj_title">Standard <br class="vw_only"/>Solar Cell</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="txt">
+									<div class="title">“Don't just buy PERC, <span class="wsnr">buy Q.ANTUM”</span></div>
+									<div class="desc use_exp">
+										<div class="mobile_txt_btn">
+											<a href="#">
+												<img class="default" alt="learn more tab button" src="images/feature_link_img_m.png" />
+												<img class="hover" alt="learn more tab button" src="images/feature_link_img_hover_m.png" />
+											</a>
+										</div>
+										<p>The Q.ANTUM technology developed by Hanwha Q CELLS is based on Passivated Emitter Rear Cell (PERC) technology. PERC allows for the passivation of the solar cell´s rear side, which involves installing a reflective layer, designed to capture previously unused sunlight back into the cell where it can be converted into solar electricity.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f3_3">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="title">
+										<div class="valign">
+											<div class="middle">
+												Advanced Module <Br/>Performance
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="f_ico_wrap">
+									<div class="valign">
+										<div class="middle">
+											<div class="ico ico1">
+												<img class="responsiveImg" 
+													 alt="Enhanced UV response icon" 
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_3_ico1_m.png" 
+													 data-media-web="images/f3_3_ico1.png" />
+												<p>Enhanced <br/>UV response</p>
+												<a href="#">
+													<img class="responsiveImg default" 
+														 alt="learn more tab button" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/feature_link_img_m.png" 
+														 data-media-web="images/feature_link_img.png" />
+												</a>
+											</div>
+											<div class="ico ico2">
+												<img class="responsiveImg" 
+													 alt="UV transmitting and blocking EVA icon" 
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_3_ico2_m.png" 
+													 data-media-web="images/f3_3_ico2.png" />
+												<p>UV transmitting <br/>and blocking EVA</p>
+												<a href="#">
+													<img class="responsiveImg" 
+														 alt="learn more tab button" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/feature_link_img_m.png" 
+														 data-media-web="images/feature_link_img.png" />
+												</a>
+											</div>
+											<!-- <div class="ico ico3">
+												<img class="responsiveImg" 
+													 alt="Optimized anti-reflection icon" 
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_3_ico3_m.png" 
+													 data-media-web="images/f3_3_ico3.png" />
+												<p>Optimized <br/>anti-reflection</p>
+												<a href="#">
+													<img class="responsiveImg" 
+														 alt="learn more tab button" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/feature_link_img_m.png" 
+														 data-media-web="images/feature_link_img.png" />
+												</a>
+											</div> -->
+											<div class="ico ico4">
+												<img class="responsiveImg" 
+													 alt="Optimized glass icon" 
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_3_ico4_m.png" 
+													 data-media-web="images/f3_3_ico4.png" />
+												<p>Optimized <br/>glass</p>
+												<a href="#">
+													<img class="responsiveImg" 
+														 alt="learn more tab button" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/feature_link_img_m.png" 
+														 data-media-web="images/feature_link_img.png" />
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider_wrap">
+								<div class="slider_inner">
+									<div class="slider_cont cont1">
+										<div class="slider_cont_inner">
+											<div class="slide_txt">
+												<div class="ico_wrap">
+													<div class="ico"><img src="images/f3_3_ico1.png" alt="Enhanced UV response icon"/></div>
+												</div>
+												<div class="title">Enhanced UV Response</div>
+												<div class="desc">The combination of Slim Emitter and highly transparent module materials improve energy conversion from UV light improve module performance.</div>
+											</div>
+											<div class="obj_wrap">
+												<div class="obj">
+													<img class="responsiveImg" 
+														 alt="percent of photons converted to electrons graph" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_3_slider1_obj_m.png" 
+														 data-media-web="images/f3_3_slider1_obj.png"/>
+													<img class="responsiveImg motion circle" 
+														 alt="enlargement icon" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_3_slider1_obj2_m.png" 
+														 data-media-web="images/f3_3_slider1_obj2.png"/>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider_cont cont2">
+										<div class="slider_cont_inner">
+											<div class="slide_txt">
+												<div class="ico_wrap">
+													<div class="ico"><img src="images/f3_3_ico2.png" alt="UV transmitting and blocking EVA icon"/></div>
+												</div>
+												<div class="title">UV transmitting and blocking EVA</div>
+												<div class="desc">Highly transparent EVA + Glass in front of the cells, and UV blocking EVA behind the cells increase the light reaching the cells and avoid UV light reaching the back sheet ensuring long operational lifetime.</div>
+											</div>
+											<div class="obj_wrap">
+												<div class="obj">
+													<img class="responsiveImg" 
+														 alt="UV transmitting and blocking EVA graph" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_3_slider2_obj_m.png" 
+														 data-media-web="images/f3_3_slider2_obj.png" />
+													<img class="responsiveImg motion line" 
+														 alt="Display line" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_3_slider2_obj2_m.png" 
+														 data-media-web="images/f3_3_slider2_obj2.png" />
+													<img class="responsiveImg motion motion_txt" 
+														 alt="UV transmitting EVA and UV blocking EVA text" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_3_slider2_obj3_m.png" 
+														 data-media-web="images/f3_3_slider2_obj3.png" />
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- <div class="slider_cont cont3">
+										<div class="slider_cont_inner">
+											<div class="slide_txt">
+												<div class="ico_wrap">
+													<div class="ico"><img src="images/f3_3_ico3.png" alt="Optimized anti-reflection icon"/></div>
+												</div>
+												<div class="title">Optimized Anti-Reflection</div>
+												<div class="desc">The anti-reflection coating (ARC), is constantly monitored and improved to be prefect for following module processes and field operation. Multiple layers of ARC bridge the air-cell gap minimizing refraction losses.</div>
+											</div>
+											<div class="obj_wrap">
+												<div class="obj">
+													<img class="responsiveImg" 
+														 alt="Optimized anti-reflection graph" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_3_slider3_obj_m.png" 
+														 data-media-web="images/f3_3_slider3_obj.png" />
+													<div class="motion arrow1">
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_3_slider3_obj2_m.png" 
+															 data-media-web="images/f3_3_slider3_obj2.png" />
+													</div>
+													<div class="motion arrow2">
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_3_slider3_obj3_m.png" 
+															 data-media-web="images/f3_3_slider3_obj3.png" />
+													</div>
+													<div class="motion arrow3">
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_3_slider3_obj4_m.png" 
+															 data-media-web="images/f3_3_slider3_obj4.png" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div> -->
+									<div class="slider_cont cont4">
+										<div class="slider_cont_inner">
+											<div class="slide_txt">
+												<div class="ico_wrap">
+													<div class="ico"><img src="images/f3_3_ico4.png" alt="Optimized glass icon"/></div>
+												</div>
+												<div class="title">Optimized Glass</div>
+												<div class="desc">Ultra clear, low reflection glass improves transmission through lower impurities. <br/>Hanwha Q CELLS low reflection means more light reaching the cells from high incident angles, like sunrise & sunset, further improving energy yields.</div>
+											</div>
+											<div class="obj_wrap">
+												<div class="obj">
+													<img class="responsiveImg" 
+														 alt="Optimized glass graph" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_3_slider4_obj_m.png" 
+														 data-media-web="images/f3_3_slider4_obj.png" />
+													<div class="motion motion_txt">
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_3_slider4_obj2_m.png" 
+															 data-media-web="images/f3_3_slider4_obj2.png" />
+													</div>
+													<div class="motion arrow1">
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_3_slider4_obj3_m.png" 
+															 data-media-web="images/f3_3_slider4_obj3.png" />
+													</div>
+													<div class="motion arrow2">
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_3_slider4_obj4_m.png" 
+															 data-media-web="images/f3_3_slider4_obj4.png" />
+													</div>
+													<div class="motion arrow3">
+														<img class="responsiveImg" 
+															 alt="Display line" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/f3_3_slider4_obj5_m.png" 
+															 data-media-web="images/f3_3_slider4_obj5.png" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="btn_wrap">
+									<div class="close">
+										<a href="#"><img src="images/transparent.png" data-media-web="images/feature_slider_close_btn.png" data-media-mobile="images/feature_slider_close_btn_m.png" class="responsiveImg" alt="pop-up close tab button"/></a>
+									</div>
+									<div class="arrow_wrap">
+										<a href="#" class="prev"><img src="images/feature_slider_prev_img.png" alt="slide icon"/></a>
+										<a href="#" class="next"><img src="images/feature_slider_next_img.png" alt="slide icon"/></a>
+									</div>
+									<div class="carousel_wrap">
+										<a href="#" class="active"></a>
+										<a href="#"></a>
+										<a href="#"></a>
+										<!-- <a href="#"></a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f3_4"></div>
+						<div class="feature f3_5">
+							<div class="feature_inner">
+								<div class="bg_obj"></div>
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="title">EVOLVING FROM PERC TO Q.ANTUM: <br/>YIELD SECURITY</div>
+											<div class="desc">PERC technology provides high-performance capabilities for solar cells and modules, but there are several potential hazards that can diminish its effectiveness. In order to protect products from degradation, safety risks and management problems, Hanwha Q CELLS developed yield <span class="wsnr">security technologies</span> including <span class="wsnr">Anti-PID,</span> <span class="wsnr">Anti-LID,</span> <span class="wsnr">Hot-Spot Protect</span> and TRA.Q™.</div>
+											<div class="ico_wrap">
+												<div class="ico ico1">
+													<img class="responsiveImg" 
+														 alt="Anti-PID icon" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_5_ico1_m.png" 
+														 data-media-web="images/f3_5_ico1.png"/>
+													<p>Anti-PID</p>
+												</div>
+												<div class="ico ico2">
+													<img class="responsiveImg" 
+														 alt="Anti-LID icon" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_5_ico2_m.png" 
+														 data-media-web="images/f3_5_ico2.png"/>
+													<p>Anti-LID</p>
+												</div>
+												<div class="ico ico3">
+													<img class="responsiveImg" 
+														 alt="Hot-Spot Protect icon" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_5_ico3_m.png" 
+														 data-media-web="images/f3_5_ico3.png" />
+													<p>Hot-Spot Protect</p>
+												</div>
+												<div class="ico ico4">
+													<img class="responsiveImg" 
+														 alt="TRA.Q™ icon" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_5_ico4_m.png" 
+														 data-media-web="images/f3_5_ico4.png" />
+													<p>TRA.Q™</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f3_6">
+							<div class="feature_inner">
+								<div class="box_wrap">
+									<div class="box_inner">
+										<div class="box_sec box_sec1">
+											<div class="box_sec_inner">
+												<div class="box">
+													<div class="box_in">
+														<div class="txt">
+															<div class="valign">
+																<div class="middle">
+																	<div class="title">ANTI-PID</div>
+																	<div class="desc">In the worst case scenario, Potential Induced Degradation can reduce module performance by over 80%. Through understanding and research of the PID effect, since 2012, all Hanwha Q CELLS products come with Anti PID Technology – not a single PID fail in the field. Anti-PID technology prevents potential induced degradation (PID) which causes leakage currents and optimizes cells to generate reliable energy to eliminate PID-related performance loss.</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="box panel">
+													<div class="box_in">
+														<div class="obj_wrap">
+															<div class="obj">
+																<img alt="Anti-PID image" src="images/transparent.png" data-media-mobile="images/f3_6_obj1_m.png" data-media-web="images/f3_6_obj1.png" class="responsiveImg" />
+																<img src="images/f3_6_obj1_img01.png" class="motion dot1" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img02.png" class="motion dot2" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img03.png" class="motion dot3" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img04.png" class="motion dot4" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img05.png" class="motion dot5" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img06.png" class="motion dot6" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img07.png" class="motion dot7" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img08.png" class="motion dot8" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img09.png" class="motion dot9" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img10.png" class="motion dot10" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img11.png" class="motion dot11" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img12.png" class="motion dot12" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img13.png" class="motion dot13" alt="Object icon"/>
+																<img src="images/f3_6_obj1_img14.png" class="motion dot14" alt="Object icon"/>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="btn">
+													<a href="#">
+														<img class="responsiveImg" 
+															 alt="learn more tab button"
+															 src="images/transparent.png" 
+															 data-media-mobile="images/feature_link_img_m.png" 
+															 data-media-web="images/feature_link_img.png" />
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="box_sec box_sec2">
+											<div class="box_sec_inner">
+												<div class="box">
+													<div class="box_in">
+														<div class="txt">
+															<div class="valign">
+																<div class="middle">
+																	<div class="title">ANTI-LID<br/> light induced degradation</div>
+																	<div class="desc">Hanwha Q CELLS' Anti-LID technology protects its products by permanently deactivation<br/> Boron-Oxygen complexes that may <span class="wsnr">cause a power</span> drop by 10%.</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="box panel">
+													<div class="box_in">
+														<div class="obj_wrap">
+															<div class="obj">
+																<img alt="Anti-LID image" src="images/transparent.png" data-media-mobile="images/f3_6_obj2_m.png" data-media-web="images/f3_6_obj2.png" class="responsiveImg" />
+																<img src="images/f3_6_obj2_img01.png" class="motion dot1" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img02.png" class="motion dot2" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img03.png" class="motion dot3" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img04.png" class="motion dot4" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img05.png" class="motion dot5" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img06.png" class="motion dot6" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img07.png" class="motion dot7" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img08.png" class="motion dot8" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img09.png" class="motion dot9" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img10.png" class="motion dot10" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img11.png" class="motion dot11" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img12.png" class="motion dot12" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img13.png" class="motion dot13" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img14.png" class="motion dot14" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img15.png" class="motion dot15" alt="electron icon"/>
+																<img src="images/f3_6_obj2_img16.png" class="motion dot16" alt="electron icon"/>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="btn"><a href="#">
+													<img class="responsiveImg" 
+														 alt="learn more tab button" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/feature_link_img_m.png" 
+														 data-media-web="images/feature_link_img.png" />
+												</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider_wrap">
+								<div class="slider_inner">
+									<div class="slider_cont cont1">
+										<div class="slider_cont_inner">
+											<div class="slide_txt">
+												<div class="title">Anti-PID Technology</div>
+												<div class="desc">Understanding the mechanism of PID, Hanwha Q CELLS has taken such degradation effects seriously and conducted APT tests under extreme conditions at the production level.</div>
+											</div>
+											<div class="obj_wrap">
+												<div class="obj">
+													<img src="images/transparent.png" data-media-web="images/f3_6_slider1_obj.png" data-media-mobile="images/f3_6_slider1_obj_m.png" class="responsiveImg" alt="ANTI-PID technology gragh"/>
+													<img src="images/f3_6_slider1_obj2.png" class="motion motion_txt1" alt="Normal power text"/>
+													<img src="images/f3_6_slider1_obj3.png" class="motion motion_txt2" alt="Shinting line"/>
+													<img src="images/f3_6_slider1_obj4.png" class="motion motion_txt3" alt="Catastrophic power loss text"/>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider_cont cont2">
+										<div class="slider_cont_inner">
+											<div class="slide_txt">
+												<div class="title">Performance comparison: <br/>Standard product <span class="lowercase">vs.</span> Q.ANTUM with ANTI-LID</div>
+											</div>
+											<div class="obj_wrap">
+												<div class="obj">
+													<div class="obj1">
+														<img src="images/transparent.png" data-media-web="images/f3_6_slider2_obj.png" data-media-mobile="images/f3_6_slider2_obj_m.png" class="responsiveImg" alt="Q.ANTUM Anti-LID description"/>
+														<div class="motion graph1"><span><p>305</p></span></div>
+														<div class="motion graph2"><span></span></div>
+														<div class="motion graph3"><span><p>299</p></span></div>
+														<div class="motion graph4"></div>
+														<div class="motion graph4_2"><span></span></div>
+														<div class="motion graph4_txt"><p>More than 6% higher power with Q.ANTUM ULTRA</p></div>
+														<div class="motion graph1_s_txt"><p><span>305</span>W Labelled Power</p></div>
+														<div class="motion graph2_s_txt"><p><span>2</span>% Initial Degradation</p></div>
+														<div class="motion graph3_s_txt"><p>Guaranteed Initial Power</p></div>
+													</div>
+													<div class="obj2">
+														<img alt="Standard product Anti-LID description" src="images/transparent.png" data-media-mobile="images/f3_6_slider2_obj2_m.png" data-media-web="images/f3_6_slider2_obj2.png" class="responsiveImg"/>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="btn_wrap">
+									<div class="close">
+										<a href="#"><img src="images/transparent.png" data-media-web="images/feature_slider_close_btn.png" data-media-mobile="images/feature_slider_close_btn_m.png" class="responsiveImg" alt="pop-up close tab button"/></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f3_7">
+							<div class="feature_inner">
+								<div class="box_wrap">
+									<div class="box_inner">
+										<div class="box_sec box_sec1">
+											<div class="box_sec_inner">
+												<div class="box">
+													<div class="box_in">
+														<div class="txt">
+															<div class="valign">
+																<div class="middle">
+																	<div class="title">HOT-SPOT PROTECT</div>
+																	<div class="desc">Hot-Spot Protect technology identifies ‘Hot-Spots’ which can catch fire, removes affected cells and reprocesses them. Hanwha Q CELLS is probably the only solar manufacturer that can identify hot-spots.</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="box">
+													<div class="box_in">
+														<div class="obj_wrap">
+															<div class="obj">
+																<img alt="Hot-Spot Protect image" src="images/transparent.png" data-media-mobile="images/f3_7_obj1_m.jpg" data-media-web="images/f3_7_obj1.jpg" class="responsiveImg" />
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="btn">
+													<a href="#">
+														<img class="responsiveImg" 
+															 alt="learn more tab button" 
+															 src="images/transparent.png" 
+															 data-media-mobile="images/feature_link_img_m.png" 
+															 data-media-web="images/feature_link_img.png" />
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="box_sec box_sec2">
+											<div class="box_sec_inner">
+												<div class="box">
+													<div class="box_in">
+														<div class="txt">
+															<div class="valign">
+																<div class="middle">
+																	<div class="title">TRA.Q™</div>
+																	<div class="desc">TRA.Q™ leaves laser markings on each solar cell to distinguish Hanwha Q CELLS’ products from others and to be able detect forgery and error analysis to ensure the quality of Hanwha solar cells.</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="box">
+													<div class="box_in">
+														<div class="obj_wrap">
+															<div class="obj">
+																<img alt="TRA.Q™ image" src="images/transparent.png" data-media-mobile="images/f3_7_obj2_m.jpg" data-media-web="images/f3_7_obj2.jpg" class="responsiveImg" />
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="btn"><a href="#">
+													<img class="responsiveImg" 
+														 alt="learn more tab button" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/feature_link_img_m.png" 
+														 data-media-web="images/feature_link_img.png" />
+												</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider_wrap">
+								<div class="slider_inner">
+									<div class="slider_cont cont1">
+										<div class="slider_cont_inner">
+											<div class="slide_txt">
+												<div class="title">Actual Hot-Spot Classification <span class="lowercase">vs.</span> <br/>Shunt Classification Without IR Camera</div>
+												<div class="desc">In order to detect Hot-Spots, Hanwha Q CELLS uses an infrared (IR) camera while reverse current flows throughout all cells at the final inspection stages. The apparatus locates cells with heat spots and these cells are later sorted out for recycling.</div>
+											</div>
+											<div class="obj_wrap">
+												<div class="obj">
+													<img src="images/transparent.png" data-media-web="images/f3_7_slider1_obj.png" data-media-mobile="images/f3_7_slider1_obj_m.png" class="responsiveImg" alt="Hot-Spot Protect gragh"/>
+													<img src="images/f3_7_slider1_obj2.png" class="motion graph" alt="Unclassified hot-spots gragh image"/>
+													<img src="images/f3_7_slider1_obj3.png" class="motion motion_txt" alt="Hot-Spot Protect gragh text"/>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider_cont cont2">
+										<div class="slider_cont_inner">
+											<div class="slide_txt">
+												<div class="title">Before TRA.Q™ <span class="lowercase">vs.</span> After TRA.Q™</div>
+												<div class="desc">The Tra.Q™  enables  insights from big data analyses to improve quality and performance. The code contains information about the place and date of production. This makes it possible to trace certain production conditions for each solar cell.</div>
+											</div>
+											<div class="obj_wrap">
+												<div class="obj">
+													<img src="images/transparent.png" data-media-web="images/f3_7_slider2_obj.png" data-media-mobile="images/f3_7_slider2_obj_m.png" class="responsiveImg" alt="TRA.Q™ gragh image"/>
+													<div class="motion graph1"><img src="images/f3_7_slider2_obj2.png" alt="without laser marking image"></div>
+													<div class="motion graph2"><img src="images/f3_7_slider2_obj3.png" alt="with laser marking image"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="btn_wrap">
+									<div class="close">
+										<a href="#"><img src="images/transparent.png" data-media-web="images/feature_slider_close_btn.png" data-media-mobile="images/feature_slider_close_btn_m.png" class="responsiveImg" alt="pop-up close tab button"/></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						
+						<div class="feature f3_8">
+							<div class="feature_inner">
+								<div class="obj_wrap">
+									<div class="obj_wrap">
+										<div class="obj obj1">
+											<div class="obj_inner">
+												<img src="images/f3_8_obj1_line.png" class="motion line" alt="yield of Q cells solar module 305Wp with Q.ANTUM technology gragh line"/>
+												<img class="responsiveImg" 
+													 alt="level of power generation: standard vs. q.antum gragh image" 
+													 src="images/transparent.png" 
+													 data-media-mobile="images/f3_8_obj1_m.png" 
+													 data-media-web="images/f3_8_obj1.png"/>
+											</div>
+											<div class="obj_inner only_1024">
+												<img src="images/f3_8_obj1_line_s.png" class="motion line" alt="yield of Q cells solar module 305Wp with Q.ANTUM technology gragh line"/>
+												<img src="images/f3_8_obj1_s.png" alt="level of power generation: standard vs. q.antum gragh image"/>
+											</div>
+										</div>
+										<div class="obj obj2">
+											<img class="responsiveImg" 
+												 alt="level of power generation: standard vs. q.antum gragh image text" 
+												 src="images/transparent.png" 
+												 data-media-mobile="images/f3_8_obj2_m.png" 
+												 data-media-web="images/f3_8_obj2.png"/>
+										</div>
+									</div>
+								</div>
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="title">LEVEL OF POWER <br/>GENERATION: <br/>STANDARD <span class="lowercase">vs.</span> Q.ANTUM</div>
+											<div class="desc">The proprietary Q.ANTUM technology boasts the remarkable performance and efficiency of solar cells and modules to greatly increase power generation.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="feature f3_75">
+							<div class="feature_inner">
+								<div class="obj_wrap">
+									<div class="obj obj1">
+
+									</div>
+									<div class="obj obj2 side_obj">
+										<div class="obj_inner">
+											<div class="obj_txt">
+												<div class="t_txt">Module Efficiency</div>
+												<div class="b_txt">19.5<span>%</span></div>
+											</div>
+											<div class="obj_line">
+												<div class="obj_inner">
+													<div class="dot"></div>
+													<div class="line"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="obj obj3 side_obj">
+										<div class="obj_inner">
+											<div class="obj_txt">
+												<div class="t_txt">Standard Sized Solar Module</div>
+												<div class="b_txt">301<span>Watts</span></div>
+											</div>
+											<div class="obj_line">
+												<div class="obj_inner">
+													<div class="dot"></div>
+													<div class="line"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="txt">
+									<div class="title">Certified Efficiency</div>
+									<div class="desc">Founded on technical initiatives, Hanwha Q CELLS stood proudly as its Q.ANTUM-based polycrystalline product set a <span class="wsnr">world-record</span> by achieving 19.5% module efficiency and 301 Watts from a standard sized solar module in 2016. This record was officially certified by the Fraunhofer Insttitue for Solar Energy(ISE), a certified solar laboratory belonging to one of the most renowned scientific societies in Germany.</div>
+									<!-- <div class="ico_wrap">
+										<div class="ico">
+											<img src="images/f3_75_ico.png" />
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+						<div class="feature f3_10">
+							<div class="feature_inner">
+								<div class="bg_obj">
+									<div class="inner">
+										<div class="caption_w">
+											<div class="valign">
+												<div class="middle">
+													<div class="c_circle">
+														<div class="valign">
+															<div class="middle">
+																<div class="caption question1">
+																	<p class="c_num">Question 1:</p>
+																	<p>Tell us about Hanwha Q CELLS´ technology leadership in solar industry</p>
+																</div>
+																<div class="caption question2">
+																	<p class="c_num">Question 2:</p>
+																	<p>What differentiates the Q.ANTUM technology from PERC based solar modules?</p>
+																</div>
+																<div class="caption question3">
+																	<p class="c_num">Question 3:</p>
+																	<p>How is Hanwha Q CELLS dealing with the degradation effects in Q.ANTUM technology?</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="caption_w2 script_w">
+											<div class="valign">
+												<div class="middle">
+													<div class="script_inner">
+														<p class="script script_1">Technology leadership has many aspects. So we at Hanwha Q CELLS developed, since many years, to increase our cell efficiency, to reduce the cost, and to ensure highest reliability.</p>
+														<p class="script script_2">And at the core of our development is our Q.ANTUM technology, which is a PERC based technology but with many additional aspects.</p>
+														<p class="script script_3">And with the Q.ANTUM technology we received several world record efficiencies in the past.</p>
+														<p class="script script_4">And we introduced this Q.ANTUM technology already in 2012 into mass production and just a few days ago, more than 5 GW of Q.ANTUM technology was produced.</p>
+														<p class="script script_5">So that means more than one billion cells of Q.ANTUM were produced.</p>
+														<p class="script script_6">Therefore, I would clearly say that Hanwha Q CELLS is one of the global leading companies in PERC cell technology.</p>
+														<p class="script script_7">As I said, we at Hanwha Q CELLS spend lots of efforts to ensure high quality and high energy of our Q.ANTUM products.</p>
+														<p class="script script_8">So that is not only that we find measures to control LID, LeTID,</p>
+														<p class="script script_9">but we have additional quality features like hot spot protection, anti-PID technology, </p>
+														<p class="script script_10">and we have additional internal high quality features to ensure highest reliability.</p>
+														<p class="script script_11">And that is also reflected in that we have more than six years field experience </p>
+														<p class="script script_12">and based on that field experience we see that our Q.ANTUM technology delivers the highest power output.</p>
+														<p class="script script_13">Therefore, on all, I would say, that our Q.ANTUM technology is the best product we got in power, price, and reliability.</p>
+														<p class="script script_14">As I said, Hanwha Q CELLS spent more than ten years to develop Q.ANTUM technology.</p>
+														<p class="script script_15">And from the beginning, we spent lots of effort to understand the degradation effect, but not only to understand the root cause of the degradation</p>
+														<p class="script script_16">but also to find solutions to control and suppress this degradation effect under field conditions.</p>
+														<p class="script script_17">So currently, all our Q.ANTUM cells are special treated to ensure that they deliver the high power during their lifetime.</p>
+														<p class="script script_18">And this is reflected in the industry-leading performance warranty of our product.</p>
+														<p class="script script_19">We are sure Q.ANTUM technology delivers high power output during more than 25 years. </p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="caption_w2 movie_cap_w">
+											<div class="valign">
+												<div class="middle">
+													<div class="movie_cap movie_cap1">
+														<b>Q.ANTUM is designed to:</b>
+														<ul>
+															<li><span>·</span>improve cell efficiency</li>
+															<li><span>·</span>reduce the cost</li>
+															<li><span>·</span>ensure reliability</li>
+														</ul>
+													</div>
+													<div class="movie_cap movie_cap2">
+														<b>More than 1 billion (5 GW) Q.ANTUM cells produced since 2012</b>
+													</div>
+													<div class="movie_cap movie_cap3">
+														<b>Hanwha Q CELLS’ quality enhancing technologies:</b>
+														<ul>
+															<li><span>·</span>Anti-LID,</li>
+															<li><span>·</span>Anti-LeTID, </li>
+															<li><span>·</span>Hot-Spot Protection,</li>
+															<li><span>·</span>Anti-PID</li>
+														</ul>
+													</div>
+													<div class="movie_cap movie_cap4">
+														<b>Q.ANTUM technology delivers the highest power output</b>
+													</div>
+													<div class="movie_cap movie_cap5">
+														<b>Hanwha Q CELLS has been developing solutions to control on-field degradation. </b>
+													</div>
+													<div class="movie_cap movie_cap6">
+														<b>Q.ANTUM cells deliver industry-leading performance and more than 25-years of durability</b>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="video_play_btn">
+									<a href="#">
+										<img src="images/video_play_btn_m.png" class="default" alt="video play button">
+										<img src="images/video_play_btn_h_m.png" class="hover" alt="video play button">
+									</a>
+								</div>
+								<div class="movie_progress">
+									<div class="movie_progress_inner">
+										<div class="bg_line"></div>
+										<div class="movie_clip_w">
+											<div class="movie_clip movie_clip1"><a href="#"></a></div>
+											<div class="movie_clip movie_clip2"><a href="#"></a></div>
+											<div class="movie_clip movie_clip3"><a href="#"></a></div>
+										</div>
+										<div class="progress_ico"><a href="#"></a></div>
+										<div class="progress_time">00:00</div>
+										<div class="control_btn pause"><a href="#"></a></div>
+									</div>
+								</div>
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="title">
+												<div class="t_title">Interview</div>
+												<div class="b_title">Dr. Jörg Müller</div>
+											</div>
+											<div class="desc">
+												<div class="t_desc">Vice President of R&D Cells at Hanwha Q CELLS</div>
+												<div class="b_desc">Dr. Jörg Müller, Vice President of R&D Cells at Hanwha Q CELLS, backs Q.ANTUM’s unrivalled quality and innovative technology and says: “Don’t just buy PERC. Buy Q.ANTUM”.</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f3_11">
+							<div class="feature_inner">
+								<div class="obj_wrap">
+									<div class="obj_wrap_inner">
+										<div class="obj obj1">
+											<div class="obj_inner">
+												<img src="images/f3_11_obj1.png" alt="hanwha Q cells quality assurance image"/>
+												<div class="obj_txt">
+													<img class="responsiveImg" 
+														 alt="level 4 image" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_11_obj1_txt_m.png" 
+														 data-media-web="images/f3_11_obj1_txt.png"/>
+												</div>
+											</div>
+										</div>
+										<div class="obj obj2">
+											<div class="obj_inner">
+												<img src="images/f3_11_obj2.png" alt="hanwha Q cells quality assurance image"/>
+												<div class="obj_txt">
+													<img class="responsiveImg" 
+														 alt="level 3 image" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_11_obj2_txt_m.png" 
+														 data-media-web="images/f3_11_obj2_txt.png"/>
+												</div>
+											</div>
+										</div>
+										<div class="obj obj3">
+											<div class="obj_inner">
+												<img src="images/f3_11_obj3.png" alt="hanwha Q cells quality assurance image"/>
+												<div class="obj_txt">
+													<img class="responsiveImg" 
+														 alt="level 2 image" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_11_obj3_txt_m.png" 
+														 data-media-web="images/f3_11_obj3_txt.png"/>
+												</div>
+											</div>
+										</div>
+										<div class="obj obj4">
+											<div class="obj_inner">
+												<img src="images/f3_11_obj4.png" alt="hanwha Q cells quality assurance image"/>
+												<div class="obj_txt">
+													<img class="responsiveImg" 
+														 alt="level 1 image" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f3_11_obj4_txt_m.png" 
+														 data-media-web="images/f3_11_obj4_txt.png"/>
+												</div>
+											</div>
+										</div>
+										<div class="obj txt_img">
+											<div class="obj_inner">
+												<img src="images/f3_11_obj5.png" alt="hanwha Q cells quality assurance text"/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="title">UNCOMPROMISING <br/>QUALITY ASSURANCE</div>
+											<div class="desc">
+												<p class="desc1">
+													<span class="m_slide m_slide_1">
+														Hanwha has four ways with which it ensures uncompromising quality and can guarantee that every one of its solar modules will maintain high performance and reliability even under harsh conditions. 
+													</span>
+													<span class="m_slide m_slide_2">
+														Hanwha has applied its methodology by leveraging its decade of experience and its wealth of data to develop algorithms and qualitative analysis to perfect its Q.ANTUM technology.
+													</span>
+													<span class="m_slide m_slide_3">
+														Hanwha applies 4 quality control measures to ensure performance and quality: yield security assessments, examinations by global certification institutions, VDE Quality tests, and Hanwha’s own Q-Tests.
+													</span>
+													<span class="m_txt_carousel">
+														<a href="#" class="active"></a>
+														<a href="#"></a>
+														<a href="#"></a>
+													</span>
+												</p>
+												<p class="desc2">The products certified by the Q-Test are put through rigorous testing in extreme conditions such as blizzards, hail showers, high-temperatures and humidity. As a result, these products exhibit capabilities that are double or even triple of those that meet standard requirements of IEC and VDE.</p>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="feature f3_12">
+							<div class="feature_inner">
+								
+							</div>
+						</div>
+						<div class="feature f4_1">
+							<div class="feature_inner">
+								
+								<div class="caption_w question_w">
+									<div class="valign">
+										<div class="middle">
+											<div class="c_circle">
+												<div class="valign">
+													<div class="middle">
+														<div class="caption question1">
+															<p class="c_num">Question 1:</p>
+															<p>PERC technology offers the highest power classes and yields in crystalline solar technology. Explain how this technology works.</p>
+														</div>
+														<div class="caption question2">
+															<p class="c_num">Question 2:</p>
+															<p>How has Hanwha Q CELLS been developing and maturing the PERC technology and where would it stand today?</p>
+														</div>
+														<div class="caption question3">
+															<p class="c_num">Question 3:</p>
+															<p>PERC modules reportedly had degradation effects as they drew attention from the media. Tell us about such degradation effects.</p>
+														</div>
+														<div class="caption question4">
+															<p class="c_num">Question 4:</p>
+															<p>Up to date, how well are these degradation effects being controlled in PV industry?</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="caption_w2 script_w">
+									<div class="valign">
+										<div class="middle">
+											<div class="script_inner">
+												<p class="script script_1">Yes. PERC is the passivated emitter and rear cell. </p>
+												<p class="script script_2">There are two changes compared to the simple standard cell.</p>
+												<p class="script script_3">One change is you have a better electrical passivation on the rear side, and the other one is that you have a dielectric layer on the back side which reflects light back into the cell.</p>
+												<p class="script script_4">Because of both effects, you have a higher efficiency of the cell and in the module you have a higher power class. </p>
+												<p class="script script_5">So from this point of view this is the technique of the future and, of course, it sounds simple but a lot of work is needed to make this technology work. </p>
+												<p class="script script_6">So from Fraunhofer side, we also support this technology and we also offer support for the industry to make this technology work.  </p>
+												<p class="script script_7">Hanwha Q CELLS is one of the first movers into this technology. </p>
+												<p class="script script_8">They started early to develop the technology and they were also early to bring this technology into production.</p>
+												<p class="script script_9">So, based on these efforts, Hanwha Q CELLS has the Q.ANTUM cell, which has all the benefits of PERC and represents a mature development status so that Hanwha Q CELLS, based on Q.ANTUM, can offer high power classes.</p>
+												<p class="script script_10">It’s true there is a degradation under certain conditions and this degradation is light-induced degradation, LID.</p>
+												<p class="script script_11">Light-induced degradation has been known for a long time and there are many people working on it.  </p>
+												<p class="script script_12">02:13	Also we, at Fraunhofer, deliver solutions for light-induced degradation and we deliver tools to characterize light-induced degradation.</p>
+												<p class="script script_13">Now, when the PERC cell was developed, there was a new phenomenon of LID, and this is the so called LeTID.</p>
+												<p class="script script_14">This is at enhanced temperature, and enhanced temperature means at higher temperatures and light you may see a degradation which may go in the range of even 10 percent. </p>
+												<p class="script script_15">So it significantly reduces power of the cells. </p>
+												<p class="script script_16">And in order to successfully manufacture PERC cell, this problem has to be solved.</p>
+												<p class="script script_17">Hanwha Q CELLS was, to my knowledge, among the first, or the first company, even, who published that they have a solution for this kind of effect.</p>
+												<p class="script script_18">Many companies claim that they have no degradation effects on their products. However, as a customer, I would do my own tests. </p>
+												<p class="script script_19">And I also would ask the companies, if they thoroughly understand degradation effect and if they have taken countermeasures in their production. </p>
+												<p class="script script_20">So I’m convinced that, to be successful, PERC technology needs to come without any degradation effects, </p>
+												<p class="script script_21">and for me it would be essential to verify this and to be sure that the company masters this technology.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="caption_w2 movie_cap_w">
+									<div class="valign">
+										<div class="middle">
+											<div class="movie_cap movie_cap1">
+												<b>PERC = passivation of the solar cells rear side</b>
+											</div>
+											<div class="movie_cap movie_cap2">
+												<b>Strengths of PERC:</b>
+												<ul>
+													<li><span>·</span>Enhanced rear-side electrical passivation</li>
+													<li><span>·</span>Dielectric layer reflecting light back into the cell </li>
+												</ul>
+											</div>
+											<div class="movie_cap movie_cap3">
+												<b>Both effects result in improved light capturing capacity and energy conversion. </b>
+											</div>
+											<div class="movie_cap movie_cap4">
+												<b>Hanwha Q CELLS, one of the first movers for realizing the PERC technology</b>
+											</div>
+											<div class="movie_cap movie_cap5">
+												<b>Q.ANTUM technology based on PERC offers higher power class.</b>
+											</div>
+											<div class="movie_cap movie_cap6">
+												<b>Hanwha Q CELLS, the first to develop the Anti-LeTID solution.</b>
+											</div>
+											<div class="movie_cap movie_cap7">
+												<b>Eliminating the degradation effects is the key to technical success.</b>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="video_play_btn">
+									<a href="#">
+										<img src="images/video_play_btn_m.png" class="default" alt="video play button">
+										<img src="images/video_play_btn_h_m.png" class="hover" alt="video play button">
+									</a>
+								</div>
+								<div class="movie_progress">
+									<div class="movie_progress_inner">
+										<div class="bg_line"></div>
+										<div class="movie_clip_w">
+											<div class="movie_clip movie_clip1"><a href="#"></a></div>
+											<div class="movie_clip movie_clip2"><a href="#"></a></div>
+											<div class="movie_clip movie_clip3"><a href="#"></a></div>
+											<div class="movie_clip movie_clip4"><a href="#"></a></div>
+										</div>
+										<div class="progress_ico"><a href="#"></a></div>
+										<div class="progress_time">00:00</div>
+										<div class="control_btn pause"><a href="#"></a></div>
+									</div>
+								</div>
+								<div class="obj">
+									<img src="images/f4_1_light.png" alt="light image"/>
+								</div>
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="title">
+												<div class="t_title">Interview</div>
+												<div class="b_title">Dr. Karl <span class="wsnr">Heinz KÜSTERS</span></div>
+											</div>
+											<div class="desc">
+												<div class="t_desc">at Fraunhofer CSP</div>
+												<div class="b_desc">
+													<span class="m_slide m_slide_1">
+														Energy industry experts commend Hanwha’s technical ability. <br class="web_only"/><span class="wsnr">Dr. Karl Heinz Küsters,</span> a renowned industry expert and leader of the Fraunhofer CSP institute in 
+													</span>
+													<span class="m_slide m_slide_2">
+														Germany, predictss that Hanwha will contribute significantly to the future commercialization of solar energy by continuing to lead in PERC technology development
+													</span>
+												</div>
+												<span class="m_txt_carousel">
+													<a href="#" class="active"></a>
+													<a href="#"></a>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f4_2">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="title">'ENGINEERED IN GERMANY' EARNS <br/>GLOBAL RECOGNITION</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f4_3">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="ico_wrap">
+												<div class="ico">
+													<img class="responsiveImg" 
+														 alt="solar award 2017 winner image" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f4_6_ico_m.png" 
+														 data-media-web="images/f4_6_ico.png" />
+												</div>
+											</div>
+											<div class="title">2017 Intersolar Award</div>
+											<div class="desc">
+												<p>Hanwha Q CELLS has won the 2017 Intersolar Award in the Photovoltaics category. <br/>Hanwha Q CELLS' Q.PEAK RSF L-G4.2 solar module was selected as the most innovative out of ten shortlisted entries and out of 51 applications in total.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f4_4">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="ico_wrap">
+												<div class="ico">
+													<img class="responsiveImg" 
+														 alt="PV magazine award image" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f4_5_ico_m.png" 
+														 data-media-web="images/f4_5_ico.png" />
+												</div>
+											</div>
+											<div class="title">PV Magazine Award</div>
+											<div class="desc">
+												<p>The Q.PEAK RSF L-G4.2 was awarded the PV magazine award in the top innovation category. The magazine´s judging panel honored Q.PEAK RSF <span class="wsnr">L-G4.2</span> for its reinforced steel-frame concept and many additional innovations such as a decentralized junction box and an easy to install new mounting system.</p>
+												<p>Hanwha Q CELLS' proprietary Q.ANTUM technology and the reinforced steel frame design combine numerous advantages for higher yields and an improved system performance to deliver lower installation cost and lower LCOE. <br class="web_only"/>These advantages and LCOE make Hanwha’s solar module the ideal choice for utility scale applications.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f4_5">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="ico_wrap">
+												<div class="ico">
+													<img class="responsiveImg" 
+														 alt="EUPD RESEARCH TOP BRAND 2017 image 1" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f4_4_ico_m.png" 
+														 data-media-web="images/f4_4_ico.png" />
+												</div>
+												<div class="ico">
+													<img class="responsiveImg" 
+														 alt="EUPD RESEARCH TOP BRAND 2017 image 2" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f4_4_ico2_m.png" 
+														 data-media-web="images/f4_4_ico2.png" />
+												</div>
+											</div>
+											<div class="title">E<span>u</span>PD Research <br class="vw_only"/>Top Brand 2017</div>
+											<div class="desc">
+												<p>In 2017 Hanwha Q CELLS was awarded the Top Brand PV Seal for its modules by EuPD Research (owned by Hoehner Research & Consulting Group) for the markets across Germany, France, Italy, Great Britain, and Australia. This win marks <span class="wsnr">4 consecutive</span> times Hanwha Q CELLS has won the award in Europe and 2 times in a row in Australia.</p>
+												<p>EuPD analyzes how companies positively differentiate their products and services. It considers how the company’s offerings compare to other options on the market in terms of market penetration, and brand awareness.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f4_6">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="ico_wrap">
+												<div class="ico">
+													<img class="responsiveImg" 
+														 alt="solar industry awards 2015 image" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f4_3_ico_m.png" 
+														 data-media-web="images/f4_3_ico.png" />
+												</div>
+											</div>
+											<div class="title">Solar Industry Awards 2015</div>
+											<div class="desc">The polycrystalline solar module Q.PLUS-G4 has power classes up to 280Wp. It has been ranked as the No. 1 module manufacturing innovation by 70,000 voters. Each voter is a representative of the solar industry and has participated in a two-month online voting process. The winning module was chosen by the award's panel of judges recognizing and praising Q CELLS' Q.ANTUM TECHNOLOGY. The Solar Industry Awards are given across 13 categories.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f4_7">
+							<div class="feature_inner">
+							</div>
+						</div>
+						<div class="feature f5_1">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="title">REWRITING history of solar energy<br class="web_only"/> With the World's largest solar cell production capacity</div>
+									<div class="desc">By acquiring the proprietary PV solution, Hanwha Q CELLS has been able to mass produce high quality products. Subsequently, it has become the world’s largest producer of in-house solar cells and has a power generation capacity of 6.8 GW. In 2017, <span class="wsnr">Hanwha Q CELLS</span> has achieved a new milestone by producing one billion Q.ANTUM solar cells.</div>
+								</div>
+								<div class="ico_wrap type1">
+									<div class="ico">
+										<img class="responsiveImg" 
+											 alt="6.8 GW Power generation capacity text" 
+											 src="images/transparent.png" 
+											 data-media-mobile="images/f5_1_ico1_m.png" 
+											 data-media-web="images/f5_1_ico1.png" />
+									</div>
+								</div>
+								<div class="ico_wrap line"></div>
+								<div class="ico_wrap type2">
+									<div class="ico">
+										<img class="responsiveImg" 
+											 alt="1 billion Q.ANTUM solar cell production text" 
+											 src="images/transparent.png" 
+											 data-media-mobile="images/f5_1_ico2_m.png" 
+											 data-media-web="images/f5_1_ico2.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f5_2">
+							<div class="feature_inner">
+								<div class="swipe_m"><img src="images/f5_2_swipe_m.png" alt="SWIPE tab"></div>
+								<div class="txt">
+									<div class="title">PROVIDING ENERGY SOLUTIONS TO GLOBAL MARKET</div>
+									<div class="desc">Hanwha provides highly efficient energy solutions to 50 countries around the world. Hanwha has also bolstered its position in the global market by signing a record scale modules supply contract from across the globe.</div>
+								</div>
+								<div class="location_popup_dimmed"></div>
+								<div class="location_popup">
+									<div class="popup_inner">
+										<div class="lo_popup_close">
+											<a href="#"></a>
+										</div>
+										<div class="location_wrap">
+											<div class="location hawaii">
+												<div class="lo_img"><img src="images/f5_2_location_hawaii.jpg" alt="KREP OAHU, HAWAII, USA image"></div>
+												<div class="lo_txt">
+													<div class="title">KREP Oahu, Hawaii, USA</div>
+													<div class="desc">The solar power plant with a capacity 6WMp supplies energy to approx. 1,000 households, which means 0.5% of all households on the island benefit from clean energy generated by this solar power plant.</div>
+												</div>
+											</div>
+											<div class="location indiana">
+												<div class="lo_img"><img src="images/f5_2_location_indiana.jpg" alt="MAYWOOD-INDIANAPOLIIS, INDIANA, USA image"></div>
+												<div class="lo_txt">
+													<div class="title">Maywood-Indianapolis, Indiana, USA</div>
+													<div class="desc">An active Environmental Protection Agency (EPA) Superfund site is transformed into an energy park that can generate 11MWp of solar power.</div>
+												</div>
+											</div>
+											<div class="location uk">
+												<div class="lo_img"><img src="images/f5_2_location_uk.jpg" alt="TOWER HILL FARM, UK image"></div>
+												<div class="lo_txt">
+													<div class="title">Tower Hill Farm, UK</div>
+													<div class="desc">A solar power plant with a capacity of 8.1MWp that has been installed within 8 weeks.</div>
+												</div>
+											</div>
+											<div class="location germany">
+												<div class="lo_img"><img src="images/f5_2_location_germany.jpg" alt="BRANDENBURG-BRIEST, GERMANY image"></div>
+												<div class="lo_txt">
+													<div class="title">BRANDENBURG-BRIEST, GERMANY</div>
+													<div class="desc">One of the world's largest solar power plants with capacity of 91MWp, completed within 12 weeks.</div>
+												</div>
+											</div>                                    
+											<div class="location korea">
+												<div class="lo_img"><img src="images/f5_2_location_korea.jpg" alt="SEONAM SEWAGE TREATMENT CENTER SOLAR POWER PLANT, KOREA image"></div>
+												<div class="lo_txt">
+													<div class="title">Seonam Sewage Treatment Center <br/>Solar Power Plant, KOREA</div>
+													<div class="desc">By installing solar panels in an underutilized space within a sewage filtering facility, this solar power plant at Seonam, Korea is now able to produce clean energy with a capacity if 3MWp.</div>
+												</div>
+											</div>
+											<div class="location japan">
+												<div class="lo_img"><img src="images/f5_2_location_japan.jpg" alt="OITA, JAPAN image"></div>
+												<div class="lo_txt">
+													<div class="title">Oita, JAPAN</div>
+													<div class="desc">One of Japan's largest Independent Power Plants (IPP) with 24.5MWp capacity.</div>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="map_area">
+								<div class="inner">
+									<div class="dot_wrap">
+										<div class="dot dot01"><img src="images/transparent.png" data-media-web="images/f5_2_dot.png" data-media-mobile="images/f5_2_dot_m.png" class="responsiveImg" alt="Global footprint map point icon"/></div>
+										<div class="dot dot02"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot03"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot04"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot05"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot06"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot07"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot08"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot09"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot10"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot11"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot12"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot13"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot14"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot15"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot16"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot17"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot18"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot19"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot20"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot21"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot22"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot23"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+										<div class="dot dot24"><img src="images/f5_2_dot.png" alt="Global footprint map point icon"/></div>
+									</div>
+									<div class="click_wrap">
+										<div class="click_ico click_ico1"><div class="click_inner"><a href="#" class="hawaii"><img src="images/transparent.png" data-media-web="images/f5_2_click_img.png" data-media-mobile="images/f5_2_click_img_m.png" class="responsiveImg" alt="learn more tab button"/></a><span></span></div></div>
+										<div class="click_ico click_ico2"><div class="click_inner"><a href="#" class="indiana"><img src="images/transparent.png" data-media-web="images/f5_2_click_img.png" data-media-mobile="images/f5_2_click_img_m.png" class="responsiveImg" alt="learn more tab button"/></a><span></span></div></div>
+										<div class="click_ico click_ico3"><div class="click_inner"><a href="#" class="uk"><img src="images/transparent.png" data-media-web="images/f5_2_click_img.png" data-media-mobile="images/f5_2_click_img_m.png" class="responsiveImg" alt="learn more tab button"/></a><span></span></div></div>
+										<div class="click_ico click_ico4"><div class="click_inner"><a href="#" class="germany"><img src="images/transparent.png" data-media-web="images/f5_2_click_img.png" data-media-mobile="images/f5_2_click_img_m.png" class="responsiveImg" alt="learn more tab button"/></a><span></span></div></div>
+										<div class="click_ico click_ico5"><div class="click_inner"><a href="#" class="korea"><img src="images/transparent.png" data-media-web="images/f5_2_click_img.png" data-media-mobile="images/f5_2_click_img_m.png" class="responsiveImg" alt="learn more tab button"/></a><span></span></div></div>
+										<div class="click_ico click_ico6"><div class="click_inner"><a href="#" class="japan"><img src="images/transparent.png" data-media-web="images/f5_2_click_img.png" data-media-mobile="images/f5_2_click_img_m.png" class="responsiveImg" alt="learn more tab button"/></a><span></span></div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feature f5_3">
+							<div class="feature_inner">
+								<div class="txt">
+									<div class="valign">
+										<div class="middle">
+											<div class="title">solar energy for all</div>
+											<div class="desc">
+												<span class="m_slide m_slide_1">
+													Solar energy has now become a reality for everyone. Just as the sun serves as a source of energy and enables life in nature, Hanwha’s technological leadership enables solar power to become a more accessible source of energy. Hanwha is committed to developing a reliable energy solution that is both more energy efficient and suitable for mass consumption.
+												</span>
+												<span class="m_slide m_slide_2">
+													“Hanwha’s technology leadership has many distinct facets, and its core is built around the company’s determination to abridge seemingly distant values closer to our world.” <br/>– Dr. Jörg Müller, head of cell development at Hanwha Q CELLS.
+												</span>
+												<span class="m_txt_carousel">
+													<a href="#" class="active"></a>
+													<a href="#"></a>
+												</span>
+											</div>
+											<div class="btn_wrap">
+												<a href="#" class="gt_nr">
+													<img class="responsiveImg" 
+														 alt="hanwha newsroom button icon" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f5_3_btn_img1_m.png" 
+														 data-media-web="images/f5_3_btn_img1.png" />
+												</a>
+												<a href="#" class="st_ov">
+													<img class="responsiveImg" 
+														 alt="page start over button icon" 
+														 src="images/transparent.png" 
+														 data-media-mobile="images/f5_3_btn_img2_m.png" 
+														 data-media-web="images/f5_3_btn_img2.png" />
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="m_scroll_img">
+				<div class="scroll_img_inner">
+					<img src="images/transparent.png" data-media-web="images/indi_scroll_img.png" data-media-mobile="images/indi_scroll_img_m.png" class="responsiveImg" alt="scroll down icon">
+					<p>Scroll Down</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="indicator_wrap">
+		<div class="indicator_inner_w">
+			<div class="progress_bg"></div>
+			<div class="indi_bg">
+				<img src="images/indi_bg_type1.png" class="black_bg" alt="footer background black image">
+				<img src="images/indi_bg_type2.png" class="blue_bg" alt="footer background blue image">
+			</div>
+			<div class="indicator_inner">
+				<div class="scroll_img">
+					<div class="scroll_img_inner">
+						<img src="images/indi_scroll_img.png" alt="scroll down icon">
+						<p>Scroll Down</p>
+					</div>
+				</div>
+				<div class="keyboard_img">
+					<div class="keyboard_img_w">
+						<div class="white">
+							<div class="keyboard_img_inner">
+								<a href="#" class="key_left">
+									<img src="images/indi_keyboard_left.png" class="default" alt="keyboard icon"/>
+									<img src="images/indi_keyboard_left_h.png" class="hover_img" alt="keyboard icon"/>
+								</a>
+								<a href="#" class="key_right">
+									<img src="images/indi_keyboard_right.png" class="default" alt="keyboard icon"/>
+									<img src="images/indi_keyboard_right_h.png" class="hover_img" alt="keyboard icon"/>
+								</a>
+							</div>
+						</div>
+						<div class="black">
+							<div class="keyboard_img_inner">
+								<a href="#" class="key_left">
+									<img src="images/indi_keyboard_left_b.png" class="default" alt="keyboard icon"/>
+									<img src="images/indi_keyboard_left_h.png" class="hover_img" alt="keyboard icon"/>
+								</a>
+								<a href="#" class="key_right">
+									<img src="images/indi_keyboard_right_b.png" class="default" alt="keyboard icon"/>
+									<img src="images/indi_keyboard_right_h.png" class="hover_img" alt="keyboard icon"/>
+								</a>
+							</div>
+						</div>
+						<div class="keyboard_img_txt">
+							<p>KeyBoard</p>
+							<img src="images/indi_keyboard_arrow.png"  alt="arrow icon"/>
+						</div>
+					</div>
+				</div>
+				<div class="progress_wrap">
+					<div class="bg_line">
+						<div class="bg_line_inner">
+							<div class="navigator_btn_w">
+								<div class="navigator_btn sec1">
+									<span></span>
+									<span></span>
+								</div>
+								<div class="navigator_btn sec2">
+									<span></span>
+								</div>
+								<div class="navigator_btn sec3">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<div class="navigator_btn sec4">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<div class="navigator_btn sec5">
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="progress_bar">
+						<div class="progress_bar_inner">
+							<div class="progress_img"></div>
+						</div>
+					</div>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="#" class="active">
+							<img src="images/indi_menu1_w.png" class="white" alt="ENERGY INNOVATION manu image"/>
+							<img src="images/indi_menu1_b.png" class="black" alt="ENERGY INNOVATION manu image"/>
+							<img src="images/indi_menu1_a.png" class="active_img" alt="ENERGY INNOVATION manu image"/>
+							<img src="images/indi_menu1_h.png" class="hover_img" alt="ENERGY INNOVATION manu image"/>
+							<img src="images/indi_menu1_ba.png" class="b_active_img" alt="ENERGY INNOVATION manu image"/>
+							<img src="images/indi_menu1_bh.png" class="b_hover_img" alt="ENERGY INNOVATION manu image"/>
+						</a></li>
+						<li><a href="#">
+							<img src="images/indi_menu2_w.png" class="white" alt="TECHNOLOGY LEADERSHIP manu image"/>
+							<img src="images/indi_menu2_b.png" class="black" alt="TECHNOLOGY LEADERSHIP manu image"/>
+							<img src="images/indi_menu2_a.png" class="active_img" alt="TECHNOLOGY LEADERSHIP manu image"/>
+							<img src="images/indi_menu2_h.png" class="hover_img" alt="TECHNOLOGY LEADERSHIP manu image"/>
+							<img src="images/indi_menu2_ba.png" class="b_active_img" alt="TECHNOLOGY LEADERSHIP manu image"/>
+							<img src="images/indi_menu2_bh.png" class="b_hover_img" alt="TECHNOLOGY LEADERSHIP manu image"/>
+						</a></li>
+						<li><a href="#">
+							<img src="images/indi_menu3_w.png" class="white" alt="Q.ANTUM TECHNOLOGY manu image"/>
+							<img src="images/indi_menu3_b.png" class="black" alt="Q.ANTUM TECHNOLOGY manu image"/>
+							<img src="images/indi_menu3_a.png" class="active_img" alt="Q.ANTUM TECHNOLOGY manu image"/>
+							<img src="images/indi_menu3_h.png" class="hover_img" alt="Q.ANTUM TECHNOLOGY manu image"/>
+							<img src="images/indi_menu3_ba.png" class="b_active_img" alt="Q.ANTUM TECHNOLOGY manu image"/>
+							<img src="images/indi_menu3_bh.png" class="b_hover_img" alt="Q.ANTUM TECHNOLOGY manu image"/>
+						</a></li>
+						<li><a href="#">
+							<img src="images/indi_menu4_w.png" class="white" alt="PERFORMANCE&RELIABILITY manu image"/>
+							<img src="images/indi_menu4_b.png" class="black" alt="PERFORMANCE&RELIABILITY manu image"/>
+							<img src="images/indi_menu4_a.png" class="active_img" alt="PERFORMANCE&RELIABILITY manu image"/>
+							<img src="images/indi_menu4_h.png" class="hover_img" alt="PERFORMANCE&RELIABILITY manu image"/>
+							<img src="images/indi_menu4_ba.png" class="b_active_img" alt="PERFORMANCE&RELIABILITY manu image"/>
+							<img src="images/indi_menu4_bh.png" class="b_hover_img" alt="PERFORMANCE&RELIABILITY manu image"/>
+						</a></li>
+						<li><a href="#">
+							<img src="images/indi_menu5_w.png" class="white" alt="GLOBAL FOOTPRINT manu image"/>
+							<img src="images/indi_menu5_b.png" class="black" alt="GLOBAL FOOTPRINT manu image"/>
+							<img src="images/indi_menu5_a.png" class="active_img" alt="GLOBAL FOOTPRINT manu image"/>
+							<img src="images/indi_menu5_h.png" class="hover_img" alt="GLOBAL FOOTPRINT manu image"/>
+							<img src="images/indi_menu5_ba.png" class="b_active_img" alt="GLOBAL FOOTPRINT manu image"/>
+							<img src="images/indi_menu5_bh.png" class="b_hover_img" alt="GLOBAL FOOTPRINT manu image"/>
+						</a></li>
+					</ul>
+				</div>						
+			</div>
+			<a href="#" class="cr_btn">
+				<img src="images/indi_copyright_btn.png" class="white" alt="Copyright tab button"/>
+				<img src="images/indi_copyright_btn_b.png" class="black" alt="Copyright tab button"/>
+				<img src="images/indi_copyright_btn_h.png" class="hover" alt="Copyright tab button"/>
+			</a>
+			<div class="copyright_w">
+				<div class="copyright_inner">
+					<div class="valign">
+						<div class="middle"><p>Copyright © <span class="indi_txt_hanwha"><img src="images/indi_txt_hanwha.png" alt="Hanwha text"/></span> Group. All rights reserved.</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="rotate_img">
+		<div class="valign">
+			<div class="middle">
+				<img src="images/rotate_img.png" alt="Please rotate your device image"/>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui.min.js"></script>    
+	<script src="js/jquery.touchSwipe.min.js"></script>    
+
+    <script src="js/browser.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/responsiveImg.js"></script>
+	<script src="js/videoControl.js"></script>
+	<script src="js/videoCaption.js"></script>
+	<script src="js/viewPage.js"></script>
+	<script src="js/mViewPage.js"></script>
+	<script src="js/event.js"></script>
+	<script src="js/touchEvent.js"></script>
+	<script src="js/imageLoader.js"></script>
+	<script src="js/guage.js"></script>
+	<script src="js/reset.js"></script>
+	<script src="js/tracking.js"></script>
+	
+	
+	<!--HANWHA Tagging Start-->
+	<!-- <script type="text/javascript">
+        _satellite.pageBottom();
+    </script> -->
+	<!--HANWHA Tagging End-->
+ </body>
+</html>

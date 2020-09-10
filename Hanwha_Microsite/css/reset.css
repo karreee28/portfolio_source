@@ -1,0 +1,57 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none; }
+html, body {height:auto;}
+a { text-decoration: none; }
+table { border-collapse: collapse; border-spacing: 0; padding: 0; }
+
+
+
+/*font*/
+@font-face {
+	font-family: 'MyriadProBoldCondensed';
+	src: url('./../font/MyriadProBoldCondensed.eot');
+	src: local('MyriadProBoldCondensed'), url('./../font/MyriadProBoldCondensed.woff') format('woff'), url('./../font/MyriadProBoldCondensed.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'MyriadProCondensed';
+	src: url('./../font/MyriadPro-Cond.eot');
+	src: local('MyriadProBoldCondensed'), url('./../font/MyriadPro-Cond.woff') format('woff'), url('./../font/MyriadPro-Cond.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'MyriadProRegular';
+	src: url('./../font/MYRIADPROREGULAR.eot');
+	src: local('MyriadProRegular'), url('./../font/MYRIADPROREGULAR.woff') format('woff'), url('./../font/MYRIADPROREGULAR.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'MyriadProSemibold';
+	src: url('./../font/MyriadProSemibold.eot');
+	src: local('MyriadProSemibold'), url('./../font/MyriadProSemibold.woff') format('woff'), url('./../font/MyriadProSemibold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MyriadProBold';
+	src: url('./../font/MYRIADB.eot');
+	src: local('MYRIADB'), url('./../font/MYRIADB.woff') format('woff'), url('./../font/MYRIADB.ttf') format('truetype');
+}
+
