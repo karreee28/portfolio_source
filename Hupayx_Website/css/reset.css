@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./../common/fonts/noto_sans/notokr-regular.eot');
+  src: url('./../common/fonts/noto_sans/notokr-regular.eot?#iefix') format('embedded-opentype'), url('./../common/fonts/noto_sans/notokr-regular.woff2') format('woff2'), url('./../common/fonts/noto_sans/notokr-regular.woff') format('woff'), url('./../common/fonts/noto_sans/notokr-regular.ttf') format('truetype'), url('./../common/fonts/noto_sans/notokr-regular.svg#notokr-regular') format('svg');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./../common/fonts/noto_sans/notokr-medium.eot');
+  src: url('./../common/fonts/noto_sans/notokr-medium.eot?#iefix') format('embedded-opentype'), url('./../common/fonts/noto_sans/notokr-medium.woff2') format('woff2'), url('./../common/fonts/noto_sans/notokr-medium.woff') format('woff'), url('./../common/fonts/noto_sans/notokr-medium.ttf') format('truetype'), url('./../common/fonts/noto_sans/notokr-medium.svg#notokr-medium') format('svg');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./../common/fonts/noto_sans/notokr-bold.eot');
+  src: url('./../common/fonts/noto_sans/notokr-bold.eot?#iefix') format('embedded-opentype'), url('./../common/fonts/noto_sans/notokr-bold.woff2') format('woff2'), url('./../common/fonts/noto_sans/notokr-bold.woff') format('woff'), url('./../common/fonts/noto_sans/notokr-bold.ttf') format('truetype'), url('./../common/fonts/noto_sans/notokr-bold.svg#notokr-bold') format('svg');
+}
+
+@font-face {
+  font-family: 'CodecCold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./../common/fonts/codec/CodecCold-Regular.eot');
+  src: url('./../common/fonts/codec/CodecCold-Regular.eot?#iefix') format('embedded-opentype'), url('./../common/fonts/codec/CodecCold-Regular.woff2') format('woff2'), url('./../common/fonts/codec/CodecCold-Regular.woff') format('woff'), url('./../common/fonts/codec/CodecCold-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CodecCold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./../common/fonts/codec/CodecCold-Bold.eot');
+  src: url('./../common/fonts/codec/CodecCold-Bold.eot?#iefix') format('embedded-opentype'), url('./../common/fonts/codec/CodecCold-Bold.woff2') format('woff2'), url('./../common/fonts/codec/CodecCold-Bold.woff') format('woff'), url('./../common/fonts/codec/CodecCold-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CodecCold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./../common/fonts/codec/CodecCold-ExtraBold.eot');
+  src: url('./../common/fonts/codec/CodecCold-ExtraBold.eot?#iefix') format('embedded-opentype'), url('./../common/fonts/codec/CodecCold-ExtraBold.woff2') format('woff2'), url('./../common/fonts/codec/CodecCold-ExtraBold.woff') format('woff'), url('./../common/fonts/codec/CodecCold-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CodecCold';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./../common/fonts/codec/CodecCold-Heavy.eot');
+  src: url('./../common/fonts/codec/CodecCold-Heavy.eot?#iefix') format('embedded-opentype'), url('./../common/fonts/codec/CodecCold-Heavy.woff2') format('woff2'), url('./../common/fonts/codec/CodecCold-Heavy.woff') format('woff'), url('./../common/fonts/codec/CodecCold-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./../common/fonts/roboto/Roboto-Regular.otf') format('opentype'), url('./../common/fonts/roboto/Roboto-Regular.woff2') format('woff2'), url('./../common/fonts/roboto/Roboto-Regular.woff') format('woff'), url('./../common/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./../common/fonts/roboto/Roboto-Medium.otf') format('opentype'), url('./../common/fonts/roboto/Roboto-Medium.woff2') format('woff2'), url('./../common/fonts/roboto/Roboto-Medium.woff') format('woff'), url('./../common/fonts/roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./../common/fonts/roboto/Roboto-Bold.otf') format('opentype'), url('./../common/fonts/roboto/Roboto-Bold.woff2') format('woff2'), url('./../common/fonts/roboto/Roboto-Bold.woff') format('woff'), url('./../common/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html, body {
+	line-height: 1;
+  min-width: 320px;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}

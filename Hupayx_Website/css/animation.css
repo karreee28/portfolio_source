@@ -1,0 +1,27 @@
+@media (min-width:769px) {
+
+  /*animation*/
+  .animated {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+  }
+
+  .animated.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+
+
+}
+
+@media (max-width:768px) {
+
+  .animated {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+}

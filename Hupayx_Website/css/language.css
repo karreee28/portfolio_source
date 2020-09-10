@@ -1,0 +1,948 @@
+.eng {
+  font-family: 'CodecCold';
+}
+.chn {
+  font-family: 'Microsoft YaHei';
+}
+
+/*contents*/
+section .txt .secTt {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 65px;
+}
+section .txt .secDesc {
+  font-size: 17px;
+  line-height: 34px;
+}
+section .txt .secDesc .topBold {
+  display: block;
+  font-weight: 800;
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+
+.s01 .txt .secTt {
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.7px;
+}
+.s01 .txt .secDesc {
+  line-height: 30px;
+}
+.s01 .txt .secBtn {
+  margin-top: 45px;
+  letter-spacing: 2px;
+}
+
+
+.s01 .arti01 .txt .secDesc {
+  width: 450px;
+}
+.s01 .arti02 .txt .secDesc {
+  width: 465px;
+}
+.s01 .arti03 .txt .secDesc {
+  width: 555px;
+}
+
+
+
+.s02 .txt .artiTt {
+  font-weight: 800;
+  line-height: 50px;
+  margin-top: 0;
+}
+.s02 .txt .artiDesc {
+  font-size: 17px;
+}
+.s02 .txt .artiDesc .category {
+  font-size: 17px;
+}
+.s02 .txt .btnW {
+  margin-top: 35px;
+}
+.s02 .txt .btnW a {
+  font-size: 16px;
+}
+
+.s02 .arti01 .txt {
+  width: 471px;
+  padding-bottom: 116px;
+}
+.s02 .arti01 .img {
+  width: 599px;
+}
+.s02 .arti02 .artiTt, .s02 .arti03 .artiTt {
+  font-size: 34px;
+  line-height: 48px;
+  letter-spacing: -0.47px;
+}
+.s02 .arti02 .txt {
+  width: 582px;
+  padding-top: 0;
+}
+.s02 .arti02 .artiDesc {
+  width: 100%;
+}
+
+.s02 .arti03 .txt {
+  width: 565px;
+  padding-top: 41px;
+  padding-bottom: 13px;
+}
+.s02 .arti03 .txt .artiDesc {
+  width: 500px;
+}
+
+.s025 {
+  padding-top: 234px;
+}
+.s025 .txt {
+  padding-left: 60px;
+}
+.s025 .artiW {
+  margin-top: 54px;
+  padding: 0 60px;
+}
+.s025 .artiW article {
+  width: 540px;
+  border-top: 1px solid #000;
+  padding-top: 28px;
+}
+.s025 .artiW article .artiTt {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 34px;
+}
+.s025 .artiW article .artiDesc {
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  margin-top: 23px;
+}
+.s025 .artiW .arti01 {
+  float: left;
+}
+.s025 .artiW .arti02 {
+  float: right;
+}
+
+.s03 .txt .secDesc {
+  width: 100%;
+}
+.s03 .icoW .ico:nth-child(4), .s03 .icoW .ico:nth-child(5) {
+  margin-top: 51px;
+}
+.s03 .icoW .ico .icoTt {
+  font-weight: 800;
+  line-height: 23px;
+  margin-top: 13px;
+}
+.s03 .icoW .ico .icoDesc {
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 11px;
+}
+
+.s04 {
+  padding-top: 213px;
+}
+.s04 article {
+  padding: 0 60px;
+}
+.s04 article .artiTt {
+  position: relative;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 34px;
+  display: inline-block;
+  z-index: 1;
+}
+.s04 article .artiTt::before {
+  display: block;
+  content: " ";
+  width: 100%;
+  height: 13px;
+  background: rgba(255, 170, 0, 0.4);
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  z-index: -1;
+}
+.s04 .arti01 {
+  margin-top: 144px;
+}
+.s04 .arti01 .boxW {
+  margin-top: 64px;
+}
+.s04 .arti01 .boxW .box {
+  float: left;
+  border-left: 1px solid #000;
+  padding: 14px 0 14px 50px;
+}
+.s04 .arti01 .boxW .box:nth-child(1) {
+  padding-right: 198px;
+}
+.s04 .arti01 .boxW .box:nth-child(2) {
+  padding-right: 160px;
+}
+.s04 .arti01 .boxW .box .boxTt {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+.s04 .arti01 .boxW .box .boxDesc {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 19px;
+}
+
+.s04 .arti02 {
+  margin-top: 164px;
+}
+.s04 .arti02 .img {
+  margin-left: -60px;;
+}
+.s04 .arti02 .botTxt {
+  margin-top: 37px;
+}
+.s04 .arti02 .botTxt p {
+  font-size: 14px;
+  line-height: 30px;
+}
+.s04 .arti02 .botTxt p b {
+  font-weight: 800;
+  display: inline-block;
+  padding-right: 2px;
+}
+.s04 .arti02 .botTxt p .notice {
+  color: #75757c;
+}
+
+.s04 .arti03 {
+  margin-top: 166px;
+}
+.s04 .arti03 .artiDesc {
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 14px;
+}
+
+.s05 .icoW .ico:nth-child(4), .s05 .icoW .ico:nth-child(5), .s05 .icoW .ico:nth-child(6) {
+  margin-top: 56px;
+}
+.s05 .icoW .ico .icoTt {
+  font-weight: 800;
+}
+.s05 .icoW .ico .icoDesc {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.s055 {
+  padding-top: 186px;
+}
+.s055 .txt {
+  padding: 0 60px;
+}
+.s055 .img {
+  padding: 0 60px;
+  margin-top: 42px;
+}
+
+.s06 {
+  padding-top: 166px;
+}
+
+/*footer*/
+.footer .boxW .box p {
+  font-size: 14px;
+  line-height: 30px;
+}
+.footer .boxW .box.left > div {
+  float: none;
+}
+
+
+/*sub*/
+.about .subS01 .txt {
+  padding-top: 60px;
+  padding-bottom: 61px;
+}
+.about .subS01 .txt .secTt {
+  font-size: 48px;
+  line-height: 62px;
+}
+.about .subS01 .txt .secDesc {
+  padding-right: 20px;
+}
+.about .subS02 .boxW .box .boxTxt .name {
+  font-weight: 800;
+}
+.about .subS03 .boxW .box .boxTxt .name {
+  font-weight: 800;
+}
+
+.disclaimer .subS01 .textArea p {
+  font-family: 'Roboto';
+}
+
+/*chn*/
+.chn .s01 .arti01 .txt {
+  max-width: 610px
+}
+.chn .s02 .txt .artiTt {
+  margin-top: 11px;
+}
+.chn .s02 .arti01 .txt {
+  padding-bottom: 186px;
+}
+.chn .s02 .arti02 .txt {
+  padding-top: 55px;
+  padding-bottom: 173px;
+}
+.chn .s02 .arti03 .txt {
+  padding-top: 55px;
+  padding-bottom: 132px;
+}
+
+.chn.about .subS01 .txt {
+  padding-bottom: 238px;
+}
+
+.chn.disclaimer .subS01 .textArea p b {
+  font-weight: 700;
+}
+
+@media(max-width:1280px) {
+
+  /*contents*/
+  section .txt .secTt {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  section .txt .secDesc {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  section .txt .secDesc .topBold {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.55px;
+    margin-bottom: 4px;
+  }
+
+  
+  .s01 .txt .secTt {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .s01 .txt .secDesc {
+    line-height: 23px;
+  }
+  .s01 .txt .secBtn {
+    margin-top: 37px;
+  }
+
+  .s01 article .txt {
+    padding-top: 111px;
+  }
+
+  .s01 .arti01 .txt .secDesc {
+    width: 386px;
+  }
+  .s01 .arti02 .txt .secDesc {
+    width: 386px;
+  }
+  .s01 .arti03 .txt .secDesc {
+    width: 366px;
+  }
+
+
+  .s02 {
+    padding-top: 135px;
+  }
+  .s02 .txt .artiTt {
+    line-height: 36px;
+  }
+  .s02 .txt .artiDesc {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .s02 .txt .artiDesc .category {
+    font-size: 13px;
+  }
+  .s02 .txt .btnW {
+    margin-top: 27px;
+  }
+  .s02 .txt .btnW a {
+    font-size: 14px;
+  }
+
+  .s02 .arti01 .txt {
+    width: 311px;
+    padding-bottom: 40px;
+  }
+  .s02 .arti01 .img {
+    width: 384px;
+  }
+  .s02 .arti02 .artiTt, .s02 .arti03 .artiTt {
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+  }
+  .s02 .arti02 .txt {
+    width: 340px;
+  }
+  
+  .s02 .arti03 .txt {
+    width: 335px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .s02 .arti03 .txt .artiDesc {
+    width: 100%;
+  }
+
+  .s025 {
+    padding-top: 190px;
+  }
+  .s025 .txt {
+    padding-left: 20px;
+  }
+  .s025 .artiW {
+    margin-top: 43px;
+    padding: 0 20px;
+  }
+  .s025 .artiW article {
+    width: 340px;
+    padding-top: 26px;
+  }
+  .s025 .artiW article .artiTt {
+    font-size: 21px;
+    line-height: 26px;
+  }
+  .s025 .artiW article .artiDesc {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    margin-top: 18px;
+  }
+
+  .s03 .icoW {
+    margin-top: 82px;
+  }
+  .s03 .icoW .ico:nth-child(1) {
+    width: 181px;
+    margin-right: 83px;
+  }
+  .s03 .icoW .ico:nth-child(2) {
+    width: 190px;
+    margin-right: 88px;
+  }
+  .s03 .icoW .ico:nth-child(3) {
+    width: 183px;
+    margin-right: 0;
+  }
+  .s03 .icoW .ico:nth-child(4) {
+    width: 180px;
+    margin-right: 83px;
+  }
+  .s03 .icoW .ico:nth-child(5) {
+    width: 215px;
+    margin-right: 0;
+  }
+  .s03 .icoW .ico:nth-child(4), .s03 .icoW .ico:nth-child(5) {
+    margin-top: 78px;
+  }
+  .s03 .icoW .ico .icoTt {
+    line-height: 22px;
+    margin-top: 15px;
+  }
+  .s03 .icoW .ico .icoDesc {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .s04 {
+    padding-top: 190px;
+  }
+  .s04 article {
+    padding: 0 20px;
+  }
+  .s04 article .artiTt {
+    font-size: 21px;
+    line-height: 26px;
+  }
+  .s04 article .artiTt::before {
+    height: 10px;
+    bottom: 1px;
+  }
+  .s04 .arti01 {
+    margin-top: 113px;
+  }
+  .s04 .arti01 .boxW {
+    margin-top: 46px;
+  }
+  .s04 .arti01 .boxW .box {
+    padding: 2px 0 10px 25px;
+  }
+  .s04 .arti01 .boxW .box:nth-child(1) {
+    padding-right: 115px;
+  }
+  .s04 .arti01 .boxW .box:nth-child(2) {
+    padding-right: 95px;
+  }
+  .s04 .arti01 .boxW .box .boxTt {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .s04 .arti01 .boxW .box .boxDesc {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 12px;
+  }
+
+  .s04 .arti02 {
+    margin-top: 146px;
+  }
+  .s04 .arti02 .img {
+    margin-left: -20px;
+    margin-top: 26px;
+  }
+  .s04 .arti02 .botTxt {
+    margin-top: 28px;
+  }
+  .s04 .arti02 .botTxt p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .s04 .arti03 {
+    margin-top: 102px;
+  }
+  .s04 .arti03 .artiDesc {
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 14px;
+  }
+
+  .s05 .icoW {
+    margin-top: 70px;
+  }
+  .s05 .icoW .ico:nth-child(1) {
+    width: 199px;
+    margin-right: 64px;
+  }
+  .s05 .icoW .ico:nth-child(2) {
+    width: 198px;
+    margin-right: 71px;
+  }
+  .s05 .icoW .ico:nth-child(4) {
+    width: 179px;
+    margin-right: 84px;
+  }
+  .s05 .icoW .ico:nth-child(6) {
+    width: 190px;
+  }
+  .s05 .icoW .ico:nth-child(4), .s05 .icoW .ico:nth-child(5), .s05 .icoW .ico:nth-child(6) {
+    margin-top: 70px;
+  }
+  .s05 .icoW .ico .icoTt {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .s05 .icoW .ico:nth-child(2) .icoTt {
+    letter-spacing: -0.6px;
+  }
+  .s05 .icoW .ico .icoDesc {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .s05 .icoW .ico:nth-child(2) .icoDesc {
+    padding-right: 37px;
+  }
+
+  .s055 {
+    padding-top: 190px;
+  }
+  .s055 .txt {
+    padding: 0 20px;
+  }
+  .s055 .img {
+    padding: 0 20px;
+    margin-top: 69px;
+  }
+
+  .s06 {
+    padding-top: 166px;
+  }
+
+  /*footer*/
+  .footer .boxW .box p {
+    font-size: 13px;
+    line-height: 35px;
+  }
+  .footer .boxW .box.left {
+    width: 382px;
+  }
+
+  /*sub*/
+  .about .subS01 .txt {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .about .subS01 .txt .secTt {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .about .subS01 .txt .secDesc {
+    font-size: 15px;
+    line-height: 24px;
+    padding-right: 9px;
+  }
+
+  /*eng*/
+  .eng .s02 .arti03 .img {
+    top: 25px;
+  }
+
+  /*chn*/
+  .chn .s01 .arti01 .txt {
+    max-width: 460px; 
+  }
+  .chn .s02 .arti01 .txt {
+    padding-bottom: 66px;
+  }
+  .chn .s02 .arti02 .txt {
+    padding-top: 45px;
+    padding-bottom: 66px;
+  }
+  .chn .s02 .arti03 .txt {
+    padding-top: 35px;
+    padding-bottom: 32px;
+  }
+
+  .chn.about .subS01 .txt {
+    padding-bottom: 32px;
+  }
+
+}
+
+
+@media(max-width:768px){
+
+  /*contents*/
+  section .txt .secTt {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  section .txt .secDesc {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  section .txt .secDesc .topBold {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0;
+    margin-bottom: 7px;
+  }
+
+  .s01 .ttBar {
+    width: 66px;
+  }
+  
+  .s01 .txt .secTt {
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0;
+  }
+  .s01 .txt .secBtn {
+    margin-top: 20px;
+  }
+
+  .s01 article .txt {
+    padding-top: 50px;
+  }
+
+  .s01 .arti01 .txt .secDesc {
+    width: 100%;
+  }
+  .s01 .arti02 .txt .secDesc {
+    width: 100%;
+  }
+  .s01 .arti03 .txt .secDesc {
+    width: 100%;
+  }
+
+  .s02 {
+    padding-top: 90px;
+  }
+  .s02 .txt .artiDesc {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .s02 .txt .artiDesc .category {
+    font-size: 15px;
+  }
+  .s02 .txt .btnW {
+    margin-top: 50px;
+  }
+  .s02 .txt .btnW a {
+    font-size: 16px;
+  }
+  
+  .s02 .arti01 .txt {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .s02 .arti01 .img {
+    width: 100%;
+  }
+  .s02 .arti02 .artiTt, .s02 .arti03 .artiTt {
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0;
+  }
+  .s02 .arti02 .txt {
+    width: 100%;
+  }
+  
+  .s02 .arti03 .txt {
+    width: 100%;
+  }
+
+  .s025 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .s025 .txt {
+    padding-left: 15px;
+  }
+  .s025 .artiW {
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+  .s025 .artiW article {
+    width: 100%;
+  }
+  .s025 .artiW .arti02 {
+    margin-top: 70px;
+  }
+  .s025 .artiW article .artiTt {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .s025 .artiW article .artiDesc {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    margin-top: 20px;
+  }
+
+  .s03 .icoW {
+    margin-top: 22px;
+  }
+  .s03 .icoW .ico {
+    margin-top: 58px;
+  }
+  .s03 .icoW .ico:nth-child(1) {
+    width: 100%;
+    margin-right: 0;
+  }
+  .s03 .icoW .ico:nth-child(2) {
+    width: 100%;
+    margin-right: 0;
+  }
+  .s03 .icoW .ico:nth-child(3) {
+    width: 100%;
+    margin-right: 0;
+  }
+  .s03 .icoW .ico:nth-child(4) {
+    width: 100%;
+    margin-right: 0;
+  }
+  .s03 .icoW .ico:nth-child(5) {
+    width: 100%;
+    margin-right: 0;
+  }
+  .s03 .icoW .ico:nth-child(4), .s03 .icoW .ico:nth-child(5) {
+    margin-top: 58px;
+  }
+  .s03 .icoW .ico .icoTt {
+    line-height: 22px;
+    margin-top: 15px;
+  }
+  .s03 .icoW .ico .icoDesc {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .s04 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .s04 article {
+    padding: 0 15px;
+  }
+  .s04 article .artiTt {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .s04 article .artiTt::before {
+    height: 7px;
+  }
+  .s04 .arti01 {
+    margin-top: 70px;
+  }
+  .s04 .arti01 .boxW {
+    margin-top: 50px;
+  }
+  .s04 .arti01 .boxW .box {
+    padding: 40px 0;
+    border-left: 0;
+    border-bottom: 1px solid #e8e8e8;
+    float: none;
+    text-align: center;
+  }
+  .s04 .arti01 .boxW .box:last-child {
+    border: 0;
+  }
+  .s04 .arti01 .boxW .box:nth-child(1) {
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .s04 .arti01 .boxW .box:nth-child(2) {
+    padding-right: 0;
+  }
+  .s04 .arti01 .boxW .box .boxTt {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .s04 .arti01 .boxW .box .boxDesc {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+  }
+
+  .s04 .arti02 {
+    margin-top: 50px;
+    padding: 0;
+  }
+  .s04 .arti02 .artiTt {
+    margin-left: 15px;
+  }
+  .s04 .arti02 .img {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .s04 .arti02 .botTxt {
+    margin-top: 23px;
+    padding: 0 15px;
+  }
+  .s04 .arti02 .botTxt p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .s04 .arti03 {
+    margin-top: 90px;
+  }
+  .s04 .arti03 .artiDesc {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .s05 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .s05 .icoW {
+    margin-top: 42px;
+  }
+  .s05 .icoW .ico:nth-child(1), .s05 .icoW .ico:nth-child(2), .s05 .icoW .ico:nth-child(3), .s05 .icoW .ico:nth-child(4), .s05 .icoW .ico:nth-child(5), .s05 .icoW .ico:nth-child(6) {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 48px;
+  }
+  .s05 .icoW .ico:nth-child(1) {
+    margin-top: 0;
+  }
+  .s05 .icoW .ico:nth-child(4), .s05 .icoW .ico:nth-child(5), .s05 .icoW .ico:nth-child(6) {
+    margin-top: 48px;
+  }
+  .s05 .icoW .ico .icoTt {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 6px;
+  }
+  .s05 .icoW .ico:nth-child(2) .icoTt {
+    letter-spacing: 0;
+  }
+  .s05 .icoW .ico .icoDesc {
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 10px;
+  }
+  .s05 .icoW .ico:nth-child(2) .icoDesc {
+    padding-right: 0;
+  }
+
+  .s055 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .s055 .txt {
+    padding: 0 15px;
+  }
+  .s055 .img {
+    padding: 0;
+    margin-top: 43px;
+  }
+
+  .s06 {
+    padding-top: 90px;
+  }
+
+  /*footer*/
+  .footer .boxW .box p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .footer .boxW .box.left {
+    width: 100%;
+  }
+
+  /*sub*/
+  .about .subS01 .txt .secTt {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .about .subS01 .txt .secDesc {
+    padding-right: 0;
+  }
+
+
+  /*chn*/
+  .chn .s02 .arti01 .txt {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .chn .s02 .arti02 .txt {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .chn .s02 .arti03 .txt {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .chn.about .subS01 .txt {
+    padding-bottom: 0;
+  }
+
+
+}
